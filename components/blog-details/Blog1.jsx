@@ -20,10 +20,10 @@ function Blog1() {
                     <p>
                       Industry experts say it's the most effective way to get to
                       the limelight in search engine rankings. While results
-                      don’t happen overnight, a well-crafted SEO plan can
+                      don&apos;t happen overnight, a well-crafted SEO plan can
                       steadily increase traffic, improve engagement, and elevate
-                      your brand’s online presence. If you're aiming to stand
-                      out, SEO is the long-term move to watch.
+                      your brand&apos;s online presence. If you're aiming to
+                      stand out, SEO is the long-term move to watch.
                     </p>
                   </div>
                   <div className="title mt-30">
@@ -32,7 +32,7 @@ function Blog1() {
                   <div className="text mt-20">
                     <p>
                       Professional SEO services are strategic techniques used to
-                      improve a website’s visibility on search engines like
+                      improve a website&apos;s visibility on search engines like
                       Google. These services include keyword optimization,
                       content creation, technical audits, and backlink building.
                       The goal is to help businesses climb search rankings and
@@ -74,13 +74,13 @@ function Blog1() {
 
                 <div className="text mb-20">
                   <p>
-                    SEO isn’t just a buzzword—it’s essential to your digital
-                    success. Search engines like Google use complex algorithms
-                    to rank content, and SEO helps optimize your site’s
-                    structure, content, and performance to boost visibility and
-                    traffic. At Sole Digital Media, our experts stay ahead of
-                    algorithm updates to craft strategies that keep your
-                    business leading in the digital space.
+                    SEO isn&apos;t just a buzzword—it&apos;s essential to your
+                    digital success. Search engines like Google use complex
+                    algorithms to rank content, and SEO helps optimize your
+                    site&apos;s structure, content, and performance to boost
+                    visibility and traffic. At Sole Digital Media, our experts
+                    stay ahead of algorithm updates to craft strategies that
+                    keep your business leading in the digital space.
                   </p>
                 </div>
 
@@ -145,7 +145,7 @@ function Blog1() {
                     rankings, builds brand authority, and attracts your target
                     audience. Our skilled team creates engaging, keyword-rich
                     content—whether blog posts, product descriptions, or service
-                    pages—that’s both user- and search-engine-friendly,
+                    pages—that&apos;s both user- and search-engine-friendly,
                     providing value while improving your SERP rankings.
                   </p>
                 </div>
@@ -156,7 +156,7 @@ function Blog1() {
                   <p>
                     Link building is key to off-page SEO. We secure
                     high-quality, ethical backlinks from reputable sites to
-                    boost your website’s authority and credibility. By
+                    boost your website&apos;s authority and credibility. By
                     connecting with industry influencers and authoritative
                     sources, we build a strong, diverse backlink profile that
                     drives referral traffic and protects your rankings.
