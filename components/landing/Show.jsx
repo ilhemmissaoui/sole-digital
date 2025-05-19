@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Show() {
   return (
@@ -18,7 +18,7 @@ function Show() {
                 <span className="fw-200"> design</span> for all devices
               </h2>
               <p>
-                Webfolio automatically detects the screen size and adjust the
+                soleDigital automatically detects the screen size and adjust the
                 content accordingly to provide fully responsive and optimised
                 sites.
               </p>

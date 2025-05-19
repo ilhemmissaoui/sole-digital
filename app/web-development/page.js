@@ -12,7 +12,7 @@ import Intro from "@/components/page-web-development/Intro";
 import Services from "@/components/home-main/Services";
 
 export const metadata = {
-  title: "webfolio",
+  title: "soleDigital",
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",

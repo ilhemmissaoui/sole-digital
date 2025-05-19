@@ -1,17 +1,17 @@
-'use client';
-import React, { useEffect } from 'react';
+"use client";
+import React, { useEffect } from "react";
 
 function Navbar() {
   function handleScroll() {
     const bodyScroll = window.scrollY;
-    const navbar = document.querySelector('.navbar');
+    const navbar = document.querySelector(".navbar");
 
-    if (bodyScroll > 300) navbar.classList.add('nav-scroll');
-    else navbar.classList.remove('nav-scroll');
+    if (bodyScroll > 300) navbar.classList.add("nav-scroll");
+    else navbar.classList.remove("nav-scroll");
   }
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <nav className="navbar navbar-expand-lg bord">
@@ -42,7 +42,7 @@ function Navbar() {
 
         <div className="contact-button">
           <a
-            href="https://themeforest.net/item/webfolio-digital-agency-creative-portfolio-template/50476003"
+            href="https://themeforest.net/item/soleDigital-digital-agency-creative-portfolio-template/50476003"
             className="butn butn-sm butn-bg main-colorbg radius-5"
           >
             <span>

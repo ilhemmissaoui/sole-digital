@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
@@ -17,7 +17,7 @@ function Footer() {
                 5919 Trussville Crossings <br /> Pkwy, Birmingham
               </h6>
               <h6 className="mt-30 mb-15">
-                <a href="#0">Hello@webfolio.com</a>
+                <a href="#0">Hello@soleDigital.com</a>
               </h6>
               <a href="#0" className="underline">
                 <span className="fz-22 main-color">+2 456 (343) 24 45</span>
@@ -80,7 +80,7 @@ function Footer() {
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
-              © 2024 Webfolio is Proudly Powered by{' '}
+              © 2024 soleDigital is Proudly Powered by{" "}
               <span className="underline main-color">
                 <a href="https://themeforest.net/user/UiCamp" target="_blank">
                   UiCamp

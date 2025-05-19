@@ -1,30 +1,30 @@
-import generateStylesheetObject from '@/common/generateStylesheetsObject';
-import Lines from '@/components/common/Lines';
-import ProgressScroll from '@/components/common/ProgressScroll';
-import Cursor from '@/components/common/cusor';
-import LoadingScreen from '@/components/common/loader';
-import Footer from '@/components/common/Footer';
-import Marq2 from '@/components/common/Marq2';
-import Navbar from '@/components/common/Navbar';
-import Script from 'next/script';
-import Clients from '@/components/common/Clients';
+import generateStylesheetObject from "@/common/generateStylesheetsObject";
+import Lines from "@/components/common/Lines";
+import ProgressScroll from "@/components/common/ProgressScroll";
+import Cursor from "@/components/common/cusor";
+import LoadingScreen from "@/components/common/loader";
+import Footer from "@/components/common/Footer";
+import Marq2 from "@/components/common/Marq2";
+import Navbar from "@/components/common/Navbar";
+import Script from "next/script";
+import Clients from "@/components/common/Clients";
 import Services from "@/components/home-main/Services";
-import Testimonials from '@/components/home-digital-agency/Testimonials';
-import Blog from '@/components/home-digital-agency/Blog';
-import Header from '@/components/page-services/Header';
-import Numbers from '@/components/page-services/Numbers';
-import Intro from '@/components/home-main/Intro';
+import Testimonials from "@/components/home-digital-agency/Testimonials";
+import Blog from "@/components/home-digital-agency/Blog";
+import Header from "@/components/page-services/Header";
+import Numbers from "@/components/page-services/Numbers";
+import Intro from "@/components/home-main/Intro";
 
 export const metadata = {
-  title: 'webfolio',
+  title: "soleDigital",
   icons: {
-    icon: '/assets/imgs/favicon.ico',
-    shortcut: '/assets/imgs/favicon.ico',
+    icon: "/assets/imgs/favicon.ico",
+    shortcut: "/assets/imgs/favicon.ico",
     other: generateStylesheetObject([
-      '/assets/css/plugins.css',
-      '/assets/css/style.css',
-      'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap',
-      'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap',
+      "/assets/css/plugins.css",
+      "/assets/css/style.css",
+      "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap",
     ]),
   },
 };

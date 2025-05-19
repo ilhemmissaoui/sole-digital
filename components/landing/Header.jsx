@@ -1,16 +1,16 @@
-'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
-import { gsap } from 'gsap';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+"use client";
+import React, { useEffect, useLayoutEffect } from "react";
+import { gsap } from "gsap";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
     tl.fromTo(
-      '.header .container',
+      ".header .container",
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      "-=0"
     );
 
     // Cleanup function
@@ -32,7 +32,7 @@ function Header() {
             <div className="col-lg-8 valign">
               <div className="caption">
                 <h1>
-                  The Ultimate{' '}
+                  The Ultimate{" "}
                   <span className="fw-200">Creative Portfolio</span> Nextjs
                   Template is Here
                 </h1>
@@ -41,7 +41,7 @@ function Header() {
           </div>
         </div>
         <div className="container">
-          <h2>Webfolio</h2>
+          <h2>soleDigital</h2>
         </div>
       </div>
       <div

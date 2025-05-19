@@ -1,6 +1,6 @@
-'use client';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-import React, { useEffect } from 'react';
+"use client";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
+import React, { useEffect } from "react";
 
 function Footer() {
   useEffect(() => {
@@ -17,7 +17,7 @@ function Footer() {
           <div className="col-lg-8">
             <div className="text-center">
               <h6 className="sub-title main-color">We Have Offer For You!</h6>
-              <h2>Download Your Copy of Webfolio Now!</h2>
+              <h2>Download Your Copy of soleDigital Now!</h2>
               <div className="text mt-15">
                 <p className="fz-22">
                   One-time payment & get free lifetime license and update
