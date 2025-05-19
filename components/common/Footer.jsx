@@ -7,7 +7,7 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/assets/imgs/Logo2.svg" alt="" />
             </div>
           </div>
           <div className="col-lg-4">
@@ -80,10 +80,10 @@ function Footer() {
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
-              © 2024 soleDigital is Proudly Powered by{" "}
+              © 2025 soleDigital is Proudly Powered by{" "}
               <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                  UiCamp
+                <a href="https://soledigitalmedia.com" target="_blank">
+                  Sole Digital
                 </a>
               </span>
             </p>
