@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Digital marketing",
+    "img": "/assets/imgs/serv-icons/3.png",
+    "desc": "Gain a competitive edge and maximize your online presence with our expert team dedicated to boosting your brand's visibility, engagement, and ROI.",
+    "link": "/digital-marketing"
+  },
+  {
+    "title": "Web Developments",
+    "img": "/assets/imgs/serv-icons/4.png",
+    "desc": "Transform your digital presence with our bespoke website and e-commerce solutions. Ready to elevate your online presence? Let's build something amazing together!",
+    "link": "/web-development"
+  },
+  {
+    "title": "Content creation",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Whether you're aiming to inform, entertain, or inspire, our content creation services ensure your message shines brightly in the digital landscape.",
+    "link": "/content-creation"
+  },
+  {
+    "title": "Graphic design",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Our skilled graphic designers craft captivating logos, compelling marketing materials, and engaging social media graphics tailored to your unique brand personality.",
+    "link": "/graphic-design"
+  },
+  
+  {
+    "title": "SEO Optimizations",
+    "img": "/assets/imgs/serv-icons/01-dark.svg", 
+    "desc": "Your online presence with our tailored SEO solutions. From keyword research to on-page optimization and link-building strategies, we help you climb search engine rankings and attract organic traffic.",
+    "link": "/seo-optimizations"
+  },
+   {
+    "title": "Social media management",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Let us boost your brand's visibility, engage your audience, and drive results across platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok.",
+    "link": "/social-media-management"
+  }
+  ,
+   {
+    "title": "Video production",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Welcome to our world of professional video production services! We specialize in creating captivating and effective videos that tell your story, promote your brand, and engage your audience.",
+    "link": "/video-production"
+  }
+]
