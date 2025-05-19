@@ -18,12 +18,13 @@ function Blog1() {
                   </div>
                   <div className="text">
                     <p>
-                      Industry experts say it's the most effective way to get to
-                      the limelight in search engine rankings. While results
-                      don&apos;t happen overnight, a well-crafted SEO plan can
-                      steadily increase traffic, improve engagement, and elevate
-                      your brand&apos;s online presence. If you're aiming to
-                      stand out, SEO is the long-term move to watch.
+                      Industry experts say it&apos;s the most effective way to
+                      get to the limelight in search engine rankings. While
+                      results don&apos;t happen overnight, a well-crafted SEO
+                      plan can steadily increase traffic, improve engagement,
+                      and elevate your brand&apos;s online presence. If
+                      you&apos;re aiming to stand out, SEO is the long-term move
+                      to watch.
                     </p>
                   </div>
                   <div className="title mt-30">
