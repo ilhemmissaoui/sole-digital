@@ -67,58 +67,10 @@ function Navbar() {
               </a>
             </li>
 
-            <li
-              onMouseLeave={handleDropdownMouseLeave}
-              onMouseMove={handleDropdownMouseMove}
-              className="nav-item dropdown"
-            >
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <span className="rolling-text">Our services</span>
+            <li className="nav-item">
+              <a className="nav-link" href="/page-services">
+                <span className="rolling-text">Services</span>
               </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="/page-services">
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-services-details">
-                    Services Details
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-team">
-                    Our Team
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-team-details">
-                    Team Details
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-contact">
-                    Contact Us
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-FAQ">
-                    FAQS
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-404">
-                    Error 404
-                  </a>
-                </li>
-              </ul>
             </li>
 
             <li className="nav-item">
@@ -133,7 +85,6 @@ function Navbar() {
               </a>
             </li>
 
-            {/* LANGUAGE SWITCHER */}
             <li
               onMouseLeave={handleDropdownMouseLeave}
               onMouseMove={handleDropdownMouseMove}
