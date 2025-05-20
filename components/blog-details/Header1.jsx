@@ -26,7 +26,7 @@ function Header1() {
     >
       <div className="container mt-80">
         <div className="row justify-content-center">
-          <div className="col-lg-11">
+          <div className="col-lg-12">
             <div className="caption">
               <h3 className="text-u ls1 fz-70">
                 Get to the limelight with Professional SEO Services

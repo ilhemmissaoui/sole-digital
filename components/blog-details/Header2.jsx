@@ -26,7 +26,7 @@ function Header2() {
     >
       <div className="container mt-80">
         <div className="row justify-content-center">
-          <div className="col-lg-11">
+          <div className="col-lg-12">
             <div className="caption">
               <h3 className="text-u ls1 fz-70">
                 Boost Your Brand With Expert Social Media Marketing Services{" "}

@@ -9,12 +9,21 @@ import Script from "next/script";
 import Header1 from "@/components/blog-details/Header1";
 import Header2 from "@/components/blog-details/Header2";
 import Header3 from "@/components/blog-details/Header3";
+import Header4 from "@/components/blog-details/Header4";
+import Header5 from "@/components/blog-details/Header5";
+import Header6 from "@/components/blog-details/Header6";
+import Header7 from "@/components/blog-details/Header7";
+import Header8 from "@/components/blog-details/Header8";
 
 import Blog1 from "@/components/blog-details/Blog1";
 import Blog2 from "@/components/blog-details/Blog2";
 import Blog3 from "@/components/blog-details/Blog3";
+import Blog4 from "@/components/blog-details/Blog4";
+import Blog5 from "@/components/blog-details/Blog5";
+import Blog6 from "@/components/blog-details/Blog6";
+import Blog7 from "@/components/blog-details/Blog7";
+import Blog8 from "@/components/blog-details/Blog8";
 
-// ✅ Exported outside the component
 export function generateStaticParams() {
   return [
     { id: "1" },
@@ -52,8 +61,18 @@ export default function BlogDetailsPage({ params }) {
         return <Header2 />;
       case "3":
         return <Header3 />;
+      case "4":
+        return <Header4 />;
+      case "5":
+        return <Header5 />;
+      case "6":
+        return <Header6 />;
+      case "7":
+        return <Header7 />;
+      case "8":
+        return <Header8 />;
       default:
-        return <Header1 />; // fallback
+        return <Header1 />;
     }
   };
 
@@ -65,6 +84,16 @@ export default function BlogDetailsPage({ params }) {
         return <Blog2 />;
       case "3":
         return <Blog3 />;
+      case "4":
+        return <Blog4 />;
+      case "5":
+        return <Blog5 />;
+      case "6":
+        return <Blog6 />;
+      case "7":
+        return <Blog7 />;
+      case "8":
+        return <Blog8 />;
       default:
         return <Blog1 />; // fallback
     }

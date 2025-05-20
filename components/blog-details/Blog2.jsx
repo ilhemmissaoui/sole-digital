@@ -2,7 +2,7 @@ import React from "react";
 
 function Blog2() {
   return (
-    <section className="blog section-padding">
+    <section className="blog ">
       <div className="container">
         <div className="row xlg-marg">
           <div className="col-lg-12">
@@ -35,8 +35,8 @@ function Blog2() {
                       community management, paid ads & performance tracking. Its
                       main goals are boosting brand awareness, engaging the
                       audience, driving traffic, & increasing sales. With social
-                      media's power, businesses can build loyalty & a strong
-                      brand identity.
+                      media&apos;s power, businesses can build loyalty & a
+                      strong brand identity.
                     </p>
                   </div>
                 </article>
@@ -44,8 +44,9 @@ function Blog2() {
                 <div className="post-qoute mt-50">
                   <h6 className="fz-20">
                     <span className="l-block">
-                      And the day came when staying hidden in search results was
-                      more costly than the effort it took to rise to the top.
+                      And the day came when being silent on social media cost
+                      more than showing up, engaging, & building your brand
+                      every day.
                     </span>
                   </h6>
                 </div>
@@ -66,112 +67,81 @@ function Blog2() {
                 </div>
 
                 <div className="title mb-10">
-                  <h4>Understanding the Power of SEO</h4>
+                  <h4>Key Strategies for Effective Social Media Marketing</h4>
                 </div>
 
                 <div className="text mb-20">
                   <p>
-                    SEO isn&apos;t just a buzzword—it&apos;s essential to your
-                    digital success. Search engines like Google use complex
-                    algorithms to rank content, and SEO helps optimize your
-                    site&apos;s structure, content, and performance to boost
-                    visibility and traffic. At Sole Digital Media, our experts
-                    stay ahead of algorithm updates to craft strategies that
-                    keep your business leading in the digital space.
+                    Content Creation: At the core of a strong social media
+                    strategy is content that&apos;s relevant, engaging, and
+                    high-quality. From posts, articles, and images to videos,
+                    infographics, and live streams—every piece is crafted to
+                    connect with your audience and reflect your brand&apos;s
+                    voice and goals.
                   </p>
                 </div>
 
                 <div className="unorder-list mb-30">
-                  <h6 className="mb-15">
-                    Tailor-made SEO Strategies for Your Business
-                  </h6>
+                  <h6 className="mb-15">Community Management</h6>
                   <p>
-                    Every business is unique—so your SEO strategy should be too.
-                    We craft personalized plans that align with your goals,
-                    audience, and industry to drive real results and long-term
-                    growth.
-                  </p>
-                  <ul className="rest">
-                    <li>In-depth website & competitor analysis</li>
-                    <li>KKeyword research tailored to your niche</li>
-                    <li>On-page optimization for better relevance </li>
-                    <li>Technical SEO to boost performance </li>
-                  </ul>
-                </div>
-
-                <div className="order-list mb-30">
-                  <h6 className="mb-15">Thorough Keyword Research</h6>
-                  <p>
-                    Keywords are the foundation of SEO. Our team conducts
-                    in-depth research to identify high-performing keywords
-                    relevant to your industry. We strategically integrate
-                    primary, secondary, and long-tail keywords into your
-                    content, meta tags, and more—ensuring your site appears to
-                    users actively searching for your services. By aligning
-                    keywords with user intent, we enhance both rankings and user
-                    experience with relevant, valuable content.
-                  </p>
-                </div>
-                <div className="order-list mb-30">
-                  <h6 className="mb-15">On-Page Optimization</h6>
-                  <p>
-                    On-page SEO focuses on optimizing each page of your website
-                    to boost rankings and user experience. We handle
-                    everything—from content, meta tags, and headers to loading
-                    speed, mobile responsiveness, and UI design. This ensures
-                    better search visibility, smoother navigation, and higher
-                    conversion rates.
-                  </p>
-                </div>
-                <div className="order-list mb-30">
-                  <h6 className="mb-15">Technical SEO Mastery</h6>
-                  <p>
-                    Technical SEO is the backbone of a strong SEO strategy,
-                    improving crawling, indexing, and ranking. Our services
-                    include audits, fixing crawl errors, enhancing site
-                    structure, mobile-friendliness, HTTPS security, schema
-                    markup, XML sitemaps, and robots.txt optimization. We stay
-                    updated with the latest practices to ensure your website
-                    performs at its best and ranks higher.
-                  </p>
-                </div>
-                <div className="order-list mb-30">
-                  <h6 className="mb-15">Content Creation of High Quality</h6>
-                  <p>
-                    Content is king in SEO. Quality, relevant content boosts
-                    rankings, builds brand authority, and attracts your target
-                    audience. Our skilled team creates engaging, keyword-rich
-                    content—whether blog posts, product descriptions, or service
-                    pages—that&apos;s both user- and search-engine-friendly,
-                    providing value while improving your SERP rankings.
-                  </p>
-                </div>
-                <div className="order-list mb-30">
-                  <h6 className="mb-15">
-                    Link Building for Authority and Trust
-                  </h6>
-                  <p>
-                    Link building is key to off-page SEO. We secure
-                    high-quality, ethical backlinks from reputable sites to
-                    boost your website&apos;s authority and credibility. By
-                    connecting with industry influencers and authoritative
-                    sources, we build a strong, diverse backlink profile that
-                    drives referral traffic and protects your rankings.
+                    Community management means engaging with your audience
+                    through comments, direct messages, and reviews. It&apos;s
+                    about creating a genuine connection and fostering a loyal
+                    community around your brand. Effective community management
+                    strengthens customer relationships and builds your
+                    brand&apos;s reputation.
                   </p>
                 </div>
 
                 <div className="order-list mb-30">
-                  <h6 className="mb-15">
-                    Measuring Success with Advanced Analytics
-                  </h6>
+                  <h6 className="mb-15">Paid Ads</h6>
                   <p>
-                    At Sole Digital Media, we rely on data-driven insights to
-                    maximize your SEO success. Using advanced analytics, we
-                    monitor keyword rankings and traffic sources to track ROI
-                    and continually refine strategies for optimal growth. Our
-                    detailed reports highlight performance and improvement
-                    areas, while transparent communication keeps you informed on
-                    how SEO drives your business goals.
+                    A strong social media ad campaign helps expand your reach
+                    and drive more traffic to your website. With advanced
+                    targeting options, you can ensure your ads appear only to
+                    users who&apos;re most likely to convert.
+                  </p>
+                </div>
+                <div className="order-list mb-30">
+                  <h6 className="mb-15">Analytics and Reporting</h6>
+                  <p>
+                    Continuous analysis of social media performance reveals
+                    what&apos;s working and what&apos;s not. Accurate analytics
+                    and reporting offer insights to refine your strategy,
+                    ensuring ongoing improvement and stronger ROI.
+                  </p>
+                </div>
+                <div className="title mt-30 mb-20">
+                  <h4>
+                    Benefits of Hiring Expert Social Media Marketing Services
+                  </h4>
+                </div>
+
+                <div className="order-list mb-30">
+                  <h6 className="mb-15">Strategic Planning</h6>
+                  <p>
+                    Professional social media marketers craft comprehensive
+                    strategies tailored to your business&apos;s goals and target
+                    audience. This ensures that every social action aligns with
+                    the company&apos;s overall marketing objectives.
+                  </p>
+                </div>
+                <div className="order-list mb-30">
+                  <h6 className="mb-15">Consistent Branding:</h6>
+                  <p>
+                    It&apos;s essential to maintain a consistent brand voice and
+                    image across all social media to build brand recognition. A
+                    skilled social media marketer ensures your brand&apos;s
+                    message stays cohesive and resonates with your audience.
+                  </p>
+                </div>
+                <div className="order-list mb-30">
+                  <h6 className="mb-15">Measurable Results:</h6>
+                  <p>
+                    One of the biggest benefits of hiring expert services is
+                    having full access to detailed analytics and reporting. This
+                    ensures you can track your social media performance and make
+                    data-driven decisions to maximize your ROI.
                   </p>
                 </div>
               </div>

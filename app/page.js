@@ -21,8 +21,8 @@ import { getTranslations } from "next-intl/server";
 export const metadata = {
   title: "soleDigital",
   icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico",
+    icon: "/assets/imgs/Logo3.svg",
+    shortcut: "/assets/imgs/Logo3.svg",
     other: generateStylesheetObject([
       "/assets/css/plugins.css",
       "/assets/css/style.css",
