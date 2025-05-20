@@ -112,7 +112,7 @@ function Blog7() {
                 <div className="title mt-30 mb-20">
                   <h3>How Influencer Marketing Works</h3>
                 </div>
-                <h6>Finding the Right Influencers "Relevance"</h6>
+                <h6>Finding the Right Influencers </h6>
 
                 <p>
                   Ensure that the content created by the influencer and the

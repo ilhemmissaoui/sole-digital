@@ -198,17 +198,17 @@ function Blog8() {
                 </div>
                 <p>
                   By choosing OneDigitalMedia for your digital marketing needs,
-                  you will be going for an able workforce raising your brand's
-                  existence to the next level by adopting an intrinsic,
-                  data-driven approach. We offer customized strategies across
-                  all digital marketing channels, from SEO to social media and
-                  content marketing to influencer partnerships, in order to
-                  reach our goals in business. Proving a performance record,
-                  delivering high ROI, in-house suite of services, end-to-end
-                  solutions—make your marketing easier while measuring concrete
-                  results. Now is the time you need to partner with
-                  OneDigitalMedia so that you can use our expertise and get
-                  exceptional growth for your brand.
+                  you will be going for an able workforce raising your
+                  brand&apos;s existence to the next level by adopting an
+                  intrinsic, data-driven approach. We offer customized
+                  strategies across all digital marketing channels, from SEO to
+                  social media and content marketing to influencer partnerships,
+                  in order to reach our goals in business. Proving a performance
+                  record, delivering high ROI, in-house suite of services,
+                  end-to-end solutions—make your marketing easier while
+                  measuring concrete results. Now is the time you need to
+                  partner with OneDigitalMedia so that you can use our expertise
+                  and get exceptional growth for your brand.
                 </p>
               </div>
             </div>
