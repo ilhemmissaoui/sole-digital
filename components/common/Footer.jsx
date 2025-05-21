@@ -7,20 +7,20 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/Logo2.svg" alt="" />
+              <img src="/assets/imgs/soleDigital.svg" alt="" />
             </div>
           </div>
           <div className="col-lg-4">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Contact</h6>
               <h6 className="p-color fw-400">
-                5919 Trussville Crossings <br /> Pkwy, Birmingham
+                Av. de Yasser Arafat, Sousse 4054
               </h6>
               <h6 className="mt-30 mb-15">
-                <a href="#0">Hello@soleDigital.com</a>
+                <a href="#0">info@soledigitalmedia.com</a>
               </h6>
               <a href="#0" className="underline">
-                <span className="fz-22 main-color">+2 456 (343) 24 45</span>
+                <span className="fz-22 main-color">+216 58944414</span>
               </a>
             </div>
           </div>
