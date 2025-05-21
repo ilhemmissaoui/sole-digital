@@ -88,7 +88,9 @@ function Navbar() {
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
-              ></a>
+              >
+                <span className="rolling-text">Languages</span>
+              </a>
               <ul className="dropdown-menu">
                 <li>
                   <button className="dropdown-item">English</button>
