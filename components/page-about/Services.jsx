@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Services() {
   return (
@@ -62,9 +62,11 @@ function Services() {
               <div>
                 <span className="num">02</span>
                 <div>
-                  <span className="sub-title main-color mb-10">Web Design</span>
+                  <span className="sub-title main-color mb-10">
+                    Content Creation
+                  </span>
                   <h2>
-                    Brand <span className="fw-200">Strategy</span>
+                    Content <span className="fw-200">Creation</span>
                   </h2>
                 </div>
               </div>
@@ -72,8 +74,9 @@ function Services() {
             <div className="col-lg-4">
               <div className="text md-mb80">
                 <p>
-                  We help our client suceed by creating identities, digital
-                  experiences, and printmaterials that communicate clearly
+                  Whether you're aiming to inform, entertain, or inspire, our
+                  content creation services ensure your message shines brightly
+                  in the digital landscape.
                 </p>
               </div>
             </div>
@@ -93,9 +96,11 @@ function Services() {
               <div>
                 <span className="num">03</span>
                 <div>
-                  <span className="sub-title main-color mb-10">Web Design</span>
+                  <span className="sub-title main-color mb-10">
+                    SEO Marketing
+                  </span>
                   <h2>
-                    SEO / <span className="fw-200">Marketing</span>
+                    SEO / <span className="fw-200">Optimization</span>
                   </h2>
                 </div>
               </div>
@@ -103,8 +108,9 @@ function Services() {
             <div className="col-lg-4">
               <div className="text md-mb80">
                 <p>
-                  We help our client suceed by creating identities, digital
-                  experiences, and printmaterials that communicate clearly
+                  Boost your online visibility with our tailored SEO services —
+                  from keyword research to on-page optimization and
+                  link-building, we drive higher rankings and organic traffic.
                 </p>
               </div>
             </div>

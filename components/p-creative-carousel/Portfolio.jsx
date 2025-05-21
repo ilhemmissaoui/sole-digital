@@ -1,25 +1,25 @@
-'use client';
-import React from 'react';
-import data from '@/data/portfolios/works1';
-import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React from "react";
+import data from "@/data/portfolios/works1";
+import { Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 function Portfolio() {
   const swiperOptions = {
     modules: [Pagination, Navigation],
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     spaceBetween: 80,
     loop: true,
     touchRatio: 0.2,
     speed: 1500,
     pagination: {
-      el: '.work-crev .swiper-pagination',
-      type: 'progressbar',
+      el: ".work-crev .swiper-pagination",
+      type: "progressbar",
     },
 
     navigation: {
-      nextEl: '.work-crev .swiper-button-next',
-      prevEl: '.work-crev .swiper-button-prev',
+      nextEl: ".work-crev .swiper-button-next",
+      prevEl: ".work-crev .swiper-button-prev",
     },
   };
   return (

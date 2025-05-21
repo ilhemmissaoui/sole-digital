@@ -42,5 +42,11 @@
     "img": "/assets/imgs/serv-icons/5.png",
     "desc": "Welcome to our world of professional video production services! We specialize in creating captivating and effective videos that tell your story, promote your brand, and engage your audience.",
     "link": "/video-production"
+  } ,
+   {
+    "title": "Influencers marketing",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "We connect brands with influential voices to create authentic campaigns that build trust, boost visibility, and drive results.",
+    "link": "/influencer-marketing"
   }
 ]

@@ -78,7 +78,11 @@ function Navbar() {
                 <span className="rolling-text">Blogs</span>
               </a>
             </li>
-
+            <li className="nav-item">
+              <a className="nav-link" href="/page-about">
+                <span className="rolling-text">About us</span>
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="/page-contact">
                 <span className="rolling-text">Contact Us</span>

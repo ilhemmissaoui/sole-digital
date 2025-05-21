@@ -1,34 +1,25 @@
-'use client';
-import React from 'react';
-import data from '@/data/services';
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-function Services() {
-  const swiperOptions = {
-    modules: [Navigation],
-    loop: true,
-    spaceBetween: 40,
-    slidesPerView: 3,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      640: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    },
+"use client";
+import React from "react";
+import data from "@/data/services";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-    navigation: {
-      nextEl: '.services .swiper-button-next',
-      prevEl: '.services .swiper-button-prev',
+function Services() {
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 768 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 768, min: 0 },
+      items: 1,
     },
   };
+
   return (
     <section className="services section-padding">
       <div className="container">
@@ -42,51 +33,40 @@ function Services() {
                 </span>
               </h3>
             </div>
-            <div className="ml-auto">
-              <div className="swiper-arrow-control">
-                <div className="swiper-button-prev">
-                  <span className="ti-arrow-left"></span>
-                </div>
-                <div className="swiper-button-next">
-                  <span className="ti-arrow-right"></span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-        <div
-          className="serv-swiper"
-          data-carousel="swiper"
-          data-loop="true"
-          data-space="40"
+
+        <Carousel
+          responsive={responsive}
+          infinite
+          autoPlay
+          autoPlaySpeed={1500}
+          arrows
+          keyBoardControl
+          containerClass="carousel-container"
+          itemClass="px-2"
         >
-          <Swiper
-            {...swiperOptions}
-            id="content-carousel-container-unq-serv"
-            className="swiper-container"
-            data-swiper="container"
-          >
-            {data.map((item, i) => (
-              <SwiperSlide key={i}>
-                <div className="item-box h-[400px] flex flex-col justify-between">
-                  <div className="icon mb-40 opacity-5">
-                    <img src={item.img} alt="" />
-                  </div>
-                  <h5 className="mb-15">{item.title}</h5>
-                  <p>{item.desc}</p>
-                  <a href={item.link} className="rmore mt-30">
-                    <span className="sub-title">Read More</span>
-                    <img
-                      src="/assets/imgs/arrow-right.png"
-                      alt=""
-                      className="icon-img-20 ml-5"
-                    />
-                  </a>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+          {data.map((item, i) => (
+            <div
+              key={i}
+              className="item-box h-[400px] flex flex-col justify-between"
+            >
+              <div className="icon mb-40 opacity-5">
+                <img src={item.img} alt="" />
+              </div>
+              <h5 className="mb-15">{item.title}</h5>
+              <p>{item.desc}</p>
+              <a href={item.link} className="rmore mt-30">
+                <span className="sub-title">Read More</span>
+                <img
+                  src="/assets/imgs/arrow-right.png"
+                  alt=""
+                  className="icon-img-20 ml-5"
+                />
+              </a>
+            </div>
+          ))}
+        </Carousel>
       </div>
     </section>
   );
