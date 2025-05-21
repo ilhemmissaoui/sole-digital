@@ -1,13 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import { useRouter, usePathname } from "next/navigation";
-import { useLocale } from "next-intl";
 
 function Navbar() {
-  const router = useRouter();
-  const pathname = usePathname();
-  const locale = useLocale();
-
   function handleScroll() {
     const bodyScroll = window.scrollY;
     const navbar = document.querySelector(".navbar");
@@ -33,13 +27,6 @@ function Navbar() {
   function handleToggleNav() {
     const nav = document.querySelector(".navbar .navbar-collapse");
     nav?.classList.toggle("show");
-  }
-
-  // Set locale cookie and reload page
-  function switchLanguage(newLocale) {
-    if (newLocale === locale) return;
-    document.cookie = `NEXT_LOCALE=${newLocale}; path=/`;
-    window.location.reload();
   }
 
   return (
@@ -101,45 +88,16 @@ function Navbar() {
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
-              >
-                <span className="rolling-text">
-                  {locale === "en"
-                    ? "English"
-                    : locale === "fr"
-                    ? "French"
-                    : "Arabic"}
-                </span>
-              </a>
+              ></a>
               <ul className="dropdown-menu">
                 <li>
-                  <button
-                    className={`dropdown-item ${
-                      locale === "en" ? "active" : ""
-                    }`}
-                    onClick={() => switchLanguage("en")}
-                  >
-                    English
-                  </button>
+                  <button className="dropdown-item">English</button>
                 </li>
                 <li>
-                  <button
-                    className={`dropdown-item ${
-                      locale === "fr" ? "active" : ""
-                    }`}
-                    onClick={() => switchLanguage("fr")}
-                  >
-                    French
-                  </button>
+                  <button className="dropdown-item">French</button>
                 </li>
                 <li>
-                  <button
-                    className={`dropdown-item ${
-                      locale === "ar" ? "active" : ""
-                    }`}
-                    onClick={() => switchLanguage("ar")}
-                  >
-                    Arabic
-                  </button>
+                  <button className="dropdown-item">Arabic</button>
                 </li>
               </ul>
             </li>

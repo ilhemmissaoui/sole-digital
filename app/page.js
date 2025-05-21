@@ -16,7 +16,6 @@ import Team from "@/components/home-main/Team";
 import Testimonials from "@/components/home-main/Testimonials";
 import Script from "next/script";
 import Marq from "@/components/home-main/Marq";
-import { getTranslations } from "next-intl/server";
 
 export const metadata = {
   title: "soleDigital",
@@ -33,7 +32,6 @@ export const metadata = {
 };
 
 export default async function Home() {
-  const t = await getTranslations("HomePage");
 
   return (
     <body>

@@ -1,11 +1,10 @@
-const path = require('path');
-const createNextIntlPlugin = require('next-intl/plugin');
+const path = require("path");
 
 const nextConfig = {
-  output: 'export', 
+  output: "export",
   reactStrictMode: false,
   sassOptions: {
-    includePaths: [path.join(__dirname, 'css')],
+    includePaths: [path.join(__dirname, "css")],
   },
   trailingSlash: true,
   devIndicators: {
@@ -16,8 +15,4 @@ const nextConfig = {
   },
 };
 
-const withNextIntl = createNextIntlPlugin({
-  locales: ['en', 'fr', 'ar'], 
-  defaultLocale: 'fr'
-});
-module.exports = withNextIntl(nextConfig);
+module.exports = nextConfig;
