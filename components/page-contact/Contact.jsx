@@ -7,12 +7,16 @@ function Contact() {
         <div className="row">
           <div className="col-lg-4 valign">
             <div className="sec-head info-box full-width md-mb80">
-              <div className="phone fz-30 fw-600 underline main-color">
-                <a href="#0">+216 58944414</a>
+              <div className="phone fz-20 fw-500 underline main-color">
+                <a href="#0">+216 58 944 414</a>
+                <br />
+                <a href="#0">+1(905) 745 4395</a>
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
                 <p>Av. de Yasser Arafat, Sousse 4054</p>
+                <br />
+                <p>3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada</p>
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>

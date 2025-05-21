@@ -13,14 +13,23 @@ function Footer() {
           <div className="col-lg-4">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Contact</h6>
-              <h6 className="p-color fw-400">
+
+              <div className="p-color fw-400">
                 Av. de Yasser Arafat, Sousse 4054
-              </h6>
+              </div>
+              <br />
+              <div className="p-color fw-400">
+                3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada
+              </div>
               <h6 className="mt-30 mb-15">
                 <a href="#0">info@soledigitalmedia.com</a>
               </h6>
               <a href="#0" className="underline">
-                <span className="fz-22 main-color">+216 58944414</span>
+                <span className="fz-22 main-color">+216 58 944 414</span>
+              </a>
+              <br />
+              <a href="#0" className="underline">
+                <span className="fz-22 main-color">+1(905)745 4395</span>
               </a>
             </div>
           </div>
