@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Blog() {
   return (
@@ -15,10 +15,7 @@ function Blog() {
               </h3>
             </div>
             <div className="ml-auto vi-more">
-              <a
-                href="/blog-classic"
-                className="butn butn-sm butn-bord radius-30"
-              >
+              <a href="/blogs" className="butn butn-sm butn-bord radius-30">
                 <span>View All</span>
               </a>
               <span className="icon ti-arrow-top-right"></span>
@@ -34,15 +31,15 @@ function Blog() {
               <div className="cont pt-40">
                 <div className="info sub-title p-color d-flex align-items-center mb-15">
                   <div>
-                    <a href="/blog-classic">By : Admin</a>
+                    <a href="/blogs">By : Admin</a>
                   </div>
                   <div className="ml-30">
-                    <a href="/blog-classic">August 14, 2023</a>
+                    <a href="/blogs">August 14, 2023</a>
                   </div>
                 </div>
                 <h4>Design Inspiration: Where to Find Creative Ideas</h4>
                 <a
-                  href="/blog-details"
+                  href="/blogs"
                   className="butn-crev d-flex align-items-center mt-40"
                 >
                   <span className="hover-this">
@@ -63,15 +60,15 @@ function Blog() {
               <div className="cont pt-40">
                 <div className="info sub-title p-color d-flex align-items-center mb-15">
                   <div>
-                    <a href="/blog-classic">By : Admin</a>
+                    <a href="/blogs">By : Admin</a>
                   </div>
                   <div className="ml-30">
-                    <a href="/blog-classic">August 14, 2023</a>
+                    <a href="/blogs">August 14, 2023</a>
                   </div>
                 </div>
                 <h4>Typography: Choosing Fonts for Maximum Impact</h4>
                 <a
-                  href="/blog-details"
+                  href="/blogs"
                   className="butn-crev d-flex align-items-center mt-40"
                 >
                   <span className="hover-this">

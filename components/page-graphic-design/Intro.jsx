@@ -3,14 +3,21 @@ import React from "react";
 
 function Intro() {
   function openAccordion(event) {
+    const parentItem = event.currentTarget.parentElement;
+    const accordionInfo = event.currentTarget.nextElementSibling;
+    const isActive = parentItem.classList.contains("active");
+
     document.querySelectorAll(".accordion-info").forEach((element) => {
       element.classList.remove("active");
       element.style.maxHeight = 0;
       element.parentElement.classList.remove("active");
     });
-    event.currentTarget.parentElement.classList.add("active");
-    event.currentTarget.nextElementSibling.style.maxHeight = "300px";
-    event.currentTarget.nextElementSibling.classList.add("active");
+
+    if (!isActive) {
+      parentItem.classList.add("active");
+      accordionInfo.classList.add("active");
+      accordionInfo.style.maxHeight = "300px";
+    }
   }
 
   return (
@@ -24,13 +31,13 @@ function Intro() {
                   <div>
                     <h6 className="sub-title main-color mb-15">
                       Sole digital media
-
                     </h6>
                     <h3 className="mb-30">
-  Designing intuitive, user-first experiences that inspire action and build trust.{" "}
-  <span className="fw-300">One seamless journey</span>{" "}
-  <span className="fw-300">crafted with purpose.</span>
-</h3>
+                      Designing intuitive, user-first experiences that inspire
+                      action and build trust.{" "}
+                      <span className="fw-300">One seamless journey</span>{" "}
+                      <span className="fw-300">crafted with purpose.</span>
+                    </h3>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -59,7 +66,9 @@ function Intro() {
                     <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20 sm-mb30">
                       <div>
                         <h3 className="fw-300 mb-10">100%</h3>
-                        <h6 className="p-color sub-title">Clients Satisfaction</h6>
+                        <h6 className="p-color sub-title">
+                          Clients Satisfaction
+                        </h6>
                       </div>
                       <div className="ml-auto">
                         <div className="icon-img-40">
@@ -72,7 +81,9 @@ function Intro() {
                     <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
                       <div>
                         <h3 className="fw-300 mb-10">6700</h3>
-                        <h6 className="p-color sub-title">Projects Completed</h6>
+                        <h6 className="p-color sub-title">
+                          Projects Completed
+                        </h6>
                       </div>
                       <div className="ml-auto">
                         <div className="icon-img-40">
@@ -110,15 +121,19 @@ function Intro() {
                   </h3>
                 </div>
                 <div className="accordion bord">
-                  <div className="item active wow fadeInUp" data-wow-delay=".1s">
+                  <div
+                    className="item active wow fadeInUp"
+                    data-wow-delay=".1s"
+                  >
                     <div onClick={openAccordion} className="title">
                       <h6>User Research & Analysis</h6>
                       <span className="ico ti-plus"></span>
                     </div>
                     <div className="accordion-info">
                       <p>
-                        We uncover user needs, behaviors, and goals through deep research.
-                        These insights form the foundation for intuitive and human-centric design.
+                        We uncover user needs, behaviors, and goals through deep
+                        research. These insights form the foundation for
+                        intuitive and human-centric design.
                       </p>
                     </div>
                   </div>
@@ -130,8 +145,9 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        We map out user journeys and interactions using wireframes and
-                        interactive prototypes, helping validate design decisions early on.
+                        We map out user journeys and interactions using
+                        wireframes and interactive prototypes, helping validate
+                        design decisions early on.
                       </p>
                     </div>
                   </div>
@@ -143,8 +159,9 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        We create beautiful, functional interfaces that balance aesthetics and usability,
-                        ensuring smooth and engaging digital experiences.
+                        We create beautiful, functional interfaces that balance
+                        aesthetics and usability, ensuring smooth and engaging
+                        digital experiences.
                       </p>
                     </div>
                   </div>
@@ -156,8 +173,9 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        We gather real user feedback to refine the product experience.
-                        Testing ensures functionality, accessibility, and satisfaction before launch.
+                        We gather real user feedback to refine the product
+                        experience. Testing ensures functionality,
+                        accessibility, and satisfaction before launch.
                       </p>
                     </div>
                   </div>

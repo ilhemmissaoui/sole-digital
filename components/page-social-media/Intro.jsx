@@ -3,14 +3,21 @@ import React from "react";
 
 function Intro() {
   function openAccordion(event) {
+    const parentItem = event.currentTarget.parentElement;
+    const accordionInfo = event.currentTarget.nextElementSibling;
+    const isActive = parentItem.classList.contains("active");
+
     document.querySelectorAll(".accordion-info").forEach((element) => {
       element.classList.remove("active");
       element.style.maxHeight = 0;
       element.parentElement.classList.remove("active");
     });
-    event.currentTarget.parentElement.classList.add("active");
-    event.currentTarget.nextElementSibling.style.maxHeight = "300px";
-    event.currentTarget.nextElementSibling.classList.add("active");
+
+    if (!isActive) {
+      parentItem.classList.add("active");
+      accordionInfo.classList.add("active");
+      accordionInfo.style.maxHeight = "300px";
+    }
   }
   return (
     <div>
@@ -27,7 +34,8 @@ function Intro() {
                     <h3 className="mb-30">
                       Social media management drives meaningful
                       <span className="fw-300">
-                        connections that build brand loyalty and boost engagement.
+                        connections that build brand loyalty and boost
+                        engagement.
                       </span>{" "}
                     </h3>
                   </div>
@@ -35,10 +43,11 @@ function Intro() {
                 <div className="col-md-6">
                   <div className="text">
                     <p className="mb-15">
-                      Effective social media strategies combine content creation,  
-                      community engagement, and data analytics to grow your brand’s  
-                      online presence. By managing platforms strategically, we foster  
-                      authentic audience relationships that translate into business growth.
+                      Effective social media strategies combine content
+                      creation, community engagement, and data analytics to grow
+                      your brand’s online presence. By managing platforms
+                      strategically, we foster authentic audience relationships
+                      that translate into business growth.
                     </p>
 
                     <div className="mt-30">
@@ -46,7 +55,9 @@ function Intro() {
                         <li className="mb-10">Content Creation & Scheduling</li>
                         <li className="mb-10">Community Management</li>
                         <li className="mb-10">Social Media Advertising</li>
-                        <li className="mb-10">Analytics & Performance Tracking</li>
+                        <li className="mb-10">
+                          Analytics & Performance Tracking
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -114,14 +125,17 @@ function Intro() {
                   </h3>
                 </div>
                 <div className="accordion bord">
-                  <div className="item active wow fadeInUp" data-wow-delay=".1s">
+                  <div
+                    className="item active wow fadeInUp"
+                    data-wow-delay=".1s"
+                  >
                     <div onClick={openAccordion} className="title">
                       <h6>Content Creation & Scheduling</h6>
                       <span className="ico ti-plus"></span>
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Crafting engaging posts tailored to your audience and  
+                        Crafting engaging posts tailored to your audience and
                         scheduling them for maximum impact across platforms.
                       </p>
                     </div>
@@ -134,8 +148,9 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Monitoring conversations, responding promptly, and  
-                        fostering authentic engagement to build loyal communities.
+                        Monitoring conversations, responding promptly, and
+                        fostering authentic engagement to build loyal
+                        communities.
                       </p>
                     </div>
                   </div>
@@ -147,8 +162,8 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Creating targeted ad campaigns to increase reach,  
-                        drive traffic, and generate leads efficiently.
+                        Creating targeted ad campaigns to increase reach, drive
+                        traffic, and generate leads efficiently.
                       </p>
                     </div>
                   </div>
@@ -160,8 +175,8 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Measuring key metrics and optimizing strategies  
-                        to ensure continuous growth and ROI.
+                        Measuring key metrics and optimizing strategies to
+                        ensure continuous growth and ROI.
                       </p>
                     </div>
                   </div>

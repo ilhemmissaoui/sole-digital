@@ -3,14 +3,21 @@ import React from "react";
 
 function Intro() {
   function openAccordion(event) {
+    const parentItem = event.currentTarget.parentElement;
+    const accordionInfo = event.currentTarget.nextElementSibling;
+    const isActive = parentItem.classList.contains("active");
+
     document.querySelectorAll(".accordion-info").forEach((element) => {
       element.classList.remove("active");
       element.style.maxHeight = 0;
       element.parentElement.classList.remove("active");
     });
-    event.currentTarget.parentElement.classList.add("active");
-    event.currentTarget.nextElementSibling.style.maxHeight = "300px";
-    event.currentTarget.nextElementSibling.classList.add("active");
+
+    if (!isActive) {
+      parentItem.classList.add("active");
+      accordionInfo.classList.add("active");
+      accordionInfo.style.maxHeight = "300px";
+    }
   }
   return (
     <div>

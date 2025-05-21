@@ -3,14 +3,21 @@ import React from "react";
 
 function Intro() {
   function openAccordion(event) {
+    const parentItem = event.currentTarget.parentElement;
+    const accordionInfo = event.currentTarget.nextElementSibling;
+    const isActive = parentItem.classList.contains("active");
+
     document.querySelectorAll(".accordion-info").forEach((element) => {
       element.classList.remove("active");
       element.style.maxHeight = 0;
       element.parentElement.classList.remove("active");
     });
-    event.currentTarget.parentElement.classList.add("active");
-    event.currentTarget.nextElementSibling.style.maxHeight = "300px";
-    event.currentTarget.nextElementSibling.classList.add("active");
+
+    if (!isActive) {
+      parentItem.classList.add("active");
+      accordionInfo.classList.add("active");
+      accordionInfo.style.maxHeight = "300px";
+    }
   }
   return (
     <div>
@@ -122,59 +129,63 @@ function Intro() {
                   </h3>
                 </div>
                 <div className="accordion bord">
-  <div className="item active wow fadeInUp" data-wow-delay=".1s">
-    <div onClick={openAccordion} className="title">
-      <h6>Technical SEO Audits</h6>
-      <span className="ico ti-plus"></span>
-    </div>
-    <div className="accordion-info">
-      <p>
-        Comprehensive analysis of your website’s technical health  
-        to identify and fix SEO issues impacting performance.
-      </p>
-    </div>
-  </div>
+                  <div
+                    className="item active wow fadeInUp"
+                    data-wow-delay=".1s"
+                  >
+                    <div onClick={openAccordion} className="title">
+                      <h6>Technical SEO Audits</h6>
+                      <span className="ico ti-plus"></span>
+                    </div>
+                    <div className="accordion-info">
+                      <p>
+                        Comprehensive analysis of your website’s technical
+                        health to identify and fix SEO issues impacting
+                        performance.
+                      </p>
+                    </div>
+                  </div>
 
-  <div className="item wow fadeInUp" data-wow-delay=".3s">
-    <div onClick={openAccordion} className="title">
-      <h6>On-Page Optimization</h6>
-      <span className="ico ti-plus"></span>
-    </div>
-    <div className="accordion-info">
-      <p>
-        Optimizing content, meta tags, and site structure  
-        to improve relevance and boost search engine rankings.
-      </p>
-    </div>
-  </div>
+                  <div className="item wow fadeInUp" data-wow-delay=".3s">
+                    <div onClick={openAccordion} className="title">
+                      <h6>On-Page Optimization</h6>
+                      <span className="ico ti-plus"></span>
+                    </div>
+                    <div className="accordion-info">
+                      <p>
+                        Optimizing content, meta tags, and site structure to
+                        improve relevance and boost search engine rankings.
+                      </p>
+                    </div>
+                  </div>
 
-  <div className="item wow fadeInUp" data-wow-delay=".3s">
-    <div onClick={openAccordion} className="title">
-      <h6>Content Strategy & Keyword Research</h6>
-      <span className="ico ti-plus"></span>
-    </div>
-    <div className="accordion-info">
-      <p>
-        Developing targeted content plans based on thorough keyword research  
-        to attract and engage your ideal audience.
-      </p>
-    </div>
-  </div>
+                  <div className="item wow fadeInUp" data-wow-delay=".3s">
+                    <div onClick={openAccordion} className="title">
+                      <h6>Content Strategy & Keyword Research</h6>
+                      <span className="ico ti-plus"></span>
+                    </div>
+                    <div className="accordion-info">
+                      <p>
+                        Developing targeted content plans based on thorough
+                        keyword research to attract and engage your ideal
+                        audience.
+                      </p>
+                    </div>
+                  </div>
 
-  <div className="item wow fadeInUp" data-wow-delay=".5s">
-    <div onClick={openAccordion} className="title">
-      <h6>Link Building & Authority Growth</h6>
-      <span className="ico ti-plus"></span>
-    </div>
-    <div className="accordion-info">
-      <p>
-        Establishing high-quality backlinks and outreach efforts  
-        to increase domain authority and search visibility.
-      </p>
-    </div>
-  </div>
-</div>
-
+                  <div className="item wow fadeInUp" data-wow-delay=".5s">
+                    <div onClick={openAccordion} className="title">
+                      <h6>Link Building & Authority Growth</h6>
+                      <span className="ico ti-plus"></span>
+                    </div>
+                    <div className="accordion-info">
+                      <p>
+                        Establishing high-quality backlinks and outreach efforts
+                        to increase domain authority and search visibility.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

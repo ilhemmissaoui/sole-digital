@@ -3,14 +3,21 @@ import React from "react";
 
 function Intro() {
   function openAccordion(event) {
+    const parentItem = event.currentTarget.parentElement;
+    const accordionInfo = event.currentTarget.nextElementSibling;
+    const isActive = parentItem.classList.contains("active");
+
     document.querySelectorAll(".accordion-info").forEach((element) => {
       element.classList.remove("active");
       element.style.maxHeight = 0;
       element.parentElement.classList.remove("active");
     });
-    event.currentTarget.parentElement.classList.add("active");
-    event.currentTarget.nextElementSibling.style.maxHeight = "300px";
-    event.currentTarget.nextElementSibling.classList.add("active");
+
+    if (!isActive) {
+      parentItem.classList.add("active");
+      accordionInfo.classList.add("active");
+      accordionInfo.style.maxHeight = "300px";
+    }
   }
 
   return (
@@ -36,15 +43,20 @@ function Intro() {
                 <div className="col-md-6">
                   <div className="text">
                     <p className="mb-15">
-                      From research to execution, our digital marketing services combine strategy,
-                      creativity, and data to help brands grow, reach wider audiences, and drive real results.
+                      From research to execution, our digital marketing services
+                      combine strategy, creativity, and data to help brands
+                      grow, reach wider audiences, and drive real results.
                     </p>
 
                     <div className="mt-30">
                       <ul className="rest dot-list">
                         <li className="mb-10">Marketing Strategy & Planning</li>
-                        <li className="mb-10">Search Engine Optimization (SEO)</li>
-                        <li className="mb-10">Pay-Per-Click Advertising (PPC)</li>
+                        <li className="mb-10">
+                          Search Engine Optimization (SEO)
+                        </li>
+                        <li className="mb-10">
+                          Pay-Per-Click Advertising (PPC)
+                        </li>
                         <li className="mb-10">Email & Content Marketing</li>
                       </ul>
                     </div>
@@ -58,7 +70,9 @@ function Intro() {
                     <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20 sm-mb30">
                       <div>
                         <h3 className="fw-300 mb-10">100%</h3>
-                        <h6 className="p-color sub-title">Client Satisfaction</h6>
+                        <h6 className="p-color sub-title">
+                          Client Satisfaction
+                        </h6>
                       </div>
                       <div className="ml-auto">
                         <div className="icon-img-40">
@@ -71,7 +85,9 @@ function Intro() {
                     <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
                       <div>
                         <h3 className="fw-300 mb-10">320+</h3>
-                        <h6 className="p-color sub-title">Campaigns Delivered</h6>
+                        <h6 className="p-color sub-title">
+                          Campaigns Delivered
+                        </h6>
                       </div>
                       <div className="ml-auto">
                         <div className="icon-img-40">
@@ -86,7 +102,10 @@ function Intro() {
 
             <div className="col-lg-4">
               <div className="img-full fit-img">
-                <img src="/assets/imgs/intro/2.jpg" alt="Digital Marketing Visual" />
+                <img
+                  src="/assets/imgs/intro/2.jpg"
+                  alt="Digital Marketing Visual"
+                />
               </div>
             </div>
           </div>
@@ -114,15 +133,19 @@ function Intro() {
                 </div>
 
                 <div className="accordion bord">
-                  <div className="item active wow fadeInUp" data-wow-delay=".1s">
+                  <div
+                    className="item active wow fadeInUp"
+                    data-wow-delay=".1s"
+                  >
                     <div onClick={openAccordion} className="title">
                       <h6>Marketing Strategy & Planning</h6>
                       <span className="ico ti-plus"></span>
                     </div>
                     <div className="accordion-info">
                       <p>
-                        We tailor digital strategies based on your goals, audience, and market trends to
-                        maximize ROI and brand visibility.
+                        We tailor digital strategies based on your goals,
+                        audience, and market trends to maximize ROI and brand
+                        visibility.
                       </p>
                     </div>
                   </div>
@@ -134,7 +157,8 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Boost your online presence and drive organic traffic with our comprehensive SEO practices.
+                        Boost your online presence and drive organic traffic
+                        with our comprehensive SEO practices.
                       </p>
                     </div>
                   </div>
@@ -146,7 +170,8 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Target the right audience with precision and generate instant results through effective paid campaigns.
+                        Target the right audience with precision and generate
+                        instant results through effective paid campaigns.
                       </p>
                     </div>
                   </div>
@@ -158,7 +183,8 @@ function Intro() {
                     </div>
                     <div className="accordion-info">
                       <p>
-                        Engage and nurture your audience through impactful storytelling and consistent communication.
+                        Engage and nurture your audience through impactful
+                        storytelling and consistent communication.
                       </p>
                     </div>
                   </div>

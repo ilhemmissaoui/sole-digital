@@ -1,16 +1,23 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
 
 function Intro2() {
   function openAccordion(event) {
-    document.querySelectorAll('.accordion-info').forEach((element) => {
-      element.classList.remove('active');
+    const parentItem = event.currentTarget.parentElement;
+    const accordionInfo = event.currentTarget.nextElementSibling;
+    const isActive = parentItem.classList.contains("active");
+
+    document.querySelectorAll(".accordion-info").forEach((element) => {
+      element.classList.remove("active");
       element.style.maxHeight = 0;
-      element.parentElement.classList.remove('active');
+      element.parentElement.classList.remove("active");
     });
-    event.currentTarget.parentElement.classList.add('active');
-    event.currentTarget.nextElementSibling.style.maxHeight = '300px';
-    event.currentTarget.nextElementSibling.classList.add('active');
+
+    if (!isActive) {
+      parentItem.classList.add("active");
+      accordionInfo.classList.add("active");
+      accordionInfo.style.maxHeight = "300px";
+    }
   }
   return (
     <section className="intro-accord section-padding sub-bg o-hidden">
