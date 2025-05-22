@@ -12,7 +12,6 @@ import Marq2 from "@/components/common/Marq2";
 import Navbar from "@/components/common/Navbar";
 import Portfolio from "@/components/home-main/Portfolio";
 import Services from "@/components/home-main/Services";
-import Team from "@/components/home-main/Team";
 import Testimonials from "@/components/home-main/Testimonials";
 import Script from "next/script";
 import Marq from "@/components/home-main/Marq";
@@ -46,8 +45,6 @@ export default async function Home() {
             <div></div>
 
             <Header />
-            {/* <h1>{t("title")}</h1> */}
-
             <Intro />
             <Marq />
             <Services />
@@ -70,7 +67,6 @@ export default async function Home() {
         src="/assets/js/ScrollSmoother.min.js"
         strategy="beforeInteractive"
       />
-
       <Script strategy="beforeInteractive" src="/assets/js/plugins.js"></Script>
       <Script
         strategy="beforeInteractive"

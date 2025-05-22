@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Intro() {
   return (
@@ -9,18 +9,24 @@ function Intro() {
             <div className="row lg-marg align-items-center">
               <div className="col-md-6">
                 <div className="img1 sm-mb50">
-                  <img src="/assets/imgs/arw2.png" alt="" />
+                  <img src="/assets/imgs/tt.svg" alt="" />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="text">
                   <h3 className="mb-30">
-                    We believe in the power of{' '}
-                    <span className="fw-300">individual</span>{' '}
+                    We believe in the power of
+                    <span className="fw-300">individual</span>{" "}
                     <span className="fw-300">contribution.</span>
                   </h3>
                   <p>
-                   At Sole Digital Media, we offer a comprehensive range of digital marketing services designed to elevate your brand’s online presence and drive measurable results. Our expert team employs cutting-edge strategies and innovative solutions tailored to meet your business needs. Explore our core services below to see how we can help you achieve your marketing goals
+                    At Sole Digital Media, we offer a comprehensive range of
+                    digital marketing services designed to elevate your brand’s
+                    online presence and drive measurable results. Our expert
+                    team employs cutting-edge strategies and innovative
+                    solutions tailored to meet your business needs. Explore our
+                    core services below to see how we can help you achieve your
+                    marketing goals
                   </p>
 
                   <a href="/page-about" className="underline main-color mt-40">

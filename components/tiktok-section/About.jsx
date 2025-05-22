@@ -8,19 +8,19 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <img src="/assets/imgs/header/p2.jpg" alt="" />
+                <img src="/assets/imgs/friends.jpg" alt="" />
               </div>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon1.png" alt="" />
+                <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon2.png" alt="" />
+                <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon3.png" alt="" />
+                <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon4.png" alt="" />
+                <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
             </div>
           </div>
