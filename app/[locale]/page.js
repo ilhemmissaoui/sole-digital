@@ -16,6 +16,7 @@ import Team from "@/components/home-main/Team";
 import Testimonials from "@/components/home-main/Testimonials";
 import Script from "next/script";
 import Marq from "@/components/home-main/Marq";
+import { useTranslations } from "next-intl";
 
 export const metadata = {
   title: "soleDigital",
@@ -32,7 +33,7 @@ export const metadata = {
 };
 
 export default async function Home() {
-
+  const { t } = useTranslations("homePage");
   return (
     <body>
       <LoadingScreen />
@@ -46,7 +47,7 @@ export default async function Home() {
             <div></div>
 
             <Header />
-            {/* <h1>{t("title")}</h1> */}
+            <h1>{t("title")}</h1>
 
             <Intro />
             <Marq />
