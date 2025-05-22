@@ -12,27 +12,38 @@ function Footer() {
           </div>
           <div className="col-lg-4">
             <div className="column md-mb50">
-              <h6 className="sub-title mb-30">Contact</h6>
+              <h6 className="sub-title mb-30">Tunisia</h6>
 
               <div className="p-color fw-400">
                 Av. de Yasser Arafat, Sousse 4054
               </div>
-              <br />
+
+              <h6 className="mt-30 mb-15">
+                <a href="#0">info@soledigitalmedia.tn</a>
+              </h6>
+              <a href="#0" className="underline">
+                <span className="fz-22 main-color">+216 58 944 414</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="column md-mb50">
+              <h6 className="sub-title mb-30">Canada</h6>
+
               <div className="p-color fw-400">
                 3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada
               </div>
               <h6 className="mt-30 mb-15">
                 <a href="#0">info@soledigitalmedia.com</a>
               </h6>
-              <a href="#0" className="underline">
-                <span className="fz-22 main-color">+216 58 944 414</span>
-              </a>
-              <br />
+
               <a href="#0" className="underline">
                 <span className="fz-22 main-color">+1(905)745 4395</span>
               </a>
             </div>
           </div>
+
           <div className="col-lg-2">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Useful Links</h6>
@@ -54,31 +65,37 @@ function Footer() {
           </div>
           <div className="col-lg-3">
             <div className="column subscribe-minimal">
-              <h6 className="sub-title mb-30">Newsletter</h6>
-              <div className="form-group mb-40">
-                <input type="text" name="subscrib" placeholder="Your Email" />
-                <button>
-                  <span className="ti-location-arrow"></span>
-                </button>
-              </div>
               <ul className="rest social-icon d-flex align-items-center">
-                <li className="hover-this cursor-pointer">
-                  <a href="#0" className="hover-anim">
+                <li>
+                  <a
+                    href="https://www.facebook.com/onedigitalmediaest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-anim"
+                    style={{ cursor: "pointer" }}
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
-                    <i className="fab fa-dribbble"></i>
-                  </a>
-                </li>
-                <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
+                <li className="ml-10">
+                  <a
+                    href="https://www.linkedin.com/company/onedigitalmediaest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-anim"
+                    style={{ cursor: "pointer" }}
+                  >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
+                <li className="ml-10">
+                  <a
+                    href="https://www.instagram.com/onedigitalmediaest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-anim"
+                    style={{ cursor: "pointer" }}
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
@@ -89,7 +106,7 @@ function Footer() {
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
-              © 2025 soleDigital is Proudly Powered by{" "}
+              © 2025 soleDigital
               <span className="underline main-color">
                 <a href="https://soledigitalmedia.com" target="_blank">
                   Sole Digital

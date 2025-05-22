@@ -19,33 +19,32 @@
   },
   {
     "title": "Graphic design",
-    "img": "/assets/imgs/serv-icons/5.png",
+    "img": "/assets/imgs/1.svg",
     "desc": "Our skilled graphic designers craft captivating logos, compelling marketing materials, and engaging social media graphics tailored to your unique brand personality.",
     "link": "/graphic-design"
   },
-  
+
   {
     "title": "SEO Optimizations",
-    "img": "/assets/imgs/serv-icons/01-dark.svg", 
+    "img": "/assets/imgs/3.svg",
     "desc": "Your online presence with our tailored SEO solutions. From keyword research to on-page optimization and link-building strategies, we help you climb search engine rankings and attract organic traffic.",
     "link": "/seo-optimizations"
   },
-   {
+  {
     "title": "Social media management",
-    "img": "/assets/imgs/serv-icons/5.png",
+    "img": "/assets/imgs/2.svg",
     "desc": "Let us boost your brand's visibility, engage your audience, and drive results across platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok.",
     "link": "/social-media-management"
-  }
-  ,
-   {
+  },
+  {
     "title": "Video production",
-    "img": "/assets/imgs/serv-icons/5.png",
+    "img": "/assets/imgs/4.svg",
     "desc": "Welcome to our world of professional video production services! We specialize in creating captivating and effective videos that tell your story, promote your brand, and engage your audience.",
     "link": "/video-production"
-  } ,
-   {
+  },
+  {
     "title": "Influencers marketing",
-    "img": "/assets/imgs/serv-icons/5.png",
+    "img": "/assets/imgs/5.svg",
     "desc": "We connect brands with influential voices to create authentic campaigns that build trust, boost visibility, and drive results.",
     "link": "/influencer-marketing"
   }

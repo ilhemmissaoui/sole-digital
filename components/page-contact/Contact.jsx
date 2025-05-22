@@ -47,12 +47,7 @@ function Contact() {
                   Send a <span className="fw-200">message</span>
                 </h3>
               </div>
-              <form
-                id="contact-form"
-                className="form2"
-                method="post"
-                action="contact.php"
-              >
+              <form id="contact-form" className="form2" method="post" action="">
                 <div className="messages"></div>
 
                 <div className="controls row">

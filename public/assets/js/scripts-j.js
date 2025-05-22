@@ -789,7 +789,7 @@ $(window).on("load", function () {
 
   $("#contact-form").on("submit", function (e) {
     if (!e.isDefaultPrevented()) {
-      var url = "contact.php";
+      var url = "";
 
       $.ajax({
         type: "POST",

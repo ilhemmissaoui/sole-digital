@@ -75,7 +75,7 @@ function Navbar() {
               </a>
             </li>
 
-            <li
+            {/* <li
               onMouseLeave={handleDropdownMouseLeave}
               onMouseMove={handleDropdownMouseMove}
               className="nav-item dropdown"
@@ -101,7 +101,7 @@ function Navbar() {
                   <button className="dropdown-item">Arabic</button>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
 
