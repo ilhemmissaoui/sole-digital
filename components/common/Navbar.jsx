@@ -70,7 +70,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/blogs">
+              <a className="nav-link" href="/tiktok-agency">
                 <span className="rolling-text">TikTok agency</span>
               </a>
             </li>

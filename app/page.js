@@ -16,6 +16,7 @@ import Team from "@/components/home-main/Team";
 import Testimonials from "@/components/home-main/Testimonials";
 import Script from "next/script";
 import Marq from "@/components/home-main/Marq";
+import About from "@/components/tiktok-section/About";
 
 export const metadata = {
   title: "soleDigital",
@@ -32,7 +33,6 @@ export const metadata = {
 };
 
 export default async function Home() {
-
   return (
     <body>
       <LoadingScreen />
@@ -51,9 +51,9 @@ export default async function Home() {
             <Intro />
             <Marq />
             <Services />
+            <About />
             <Portfolio />
             <Feat />
-            {/* <Team /> */}
             <Testimonials />
             <Clients />
             <Marq2 />
