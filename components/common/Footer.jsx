@@ -93,7 +93,7 @@ function Footer() {
                   <a href="/page-services">Services</a>
                 </li>
                 <li className="mb-15">
-                  <a href="/blog-grid-sidebar">Blog</a>
+                  <a href="/blogs">Blog</a>
                 </li>
                 <li>
                   <a href="/page-contact">Contact</a>
