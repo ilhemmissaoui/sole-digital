@@ -53,7 +53,11 @@ function Navbar() {
                 <span className="rolling-text">Home</span>
               </a>
             </li>
-
+            <li className="nav-item">
+              <a className="nav-link" href="/page-about">
+                <span className="rolling-text">About us</span>
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="/page-services">
                 <span className="rolling-text">Services</span>
@@ -66,8 +70,8 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/page-about">
-                <span className="rolling-text">About us</span>
+              <a className="nav-link" href="/blogs">
+                <span className="rolling-text">TikTok agency</span>
               </a>
             </li>
 
