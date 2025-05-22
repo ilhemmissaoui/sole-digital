@@ -9,6 +9,44 @@ function Footer() {
             <div className="logo icon-img-100 md-mb80">
               <img src="/assets/imgs/soleDigital.svg" alt="" />
             </div>
+            <br />
+            <div className="column subscribe-minimal">
+              <ul className="rest social-icon d-flex align-items-center">
+                <li>
+                  <a
+                    href="https://www.facebook.com/onedigitalmediaest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-anim"
+                    style={{ cursor: "pointer" }}
+                  >
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li className="ml-10">
+                  <a
+                    href="https://www.linkedin.com/company/onedigitalmediaest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-anim"
+                    style={{ cursor: "pointer" }}
+                  >
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li className="ml-10">
+                  <a
+                    href="https://www.instagram.com/onedigitalmediaest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-anim"
+                    style={{ cursor: "pointer" }}
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="col-lg-4">
             <div className="column md-mb50">
@@ -59,45 +97,6 @@ function Footer() {
                 </li>
                 <li>
                   <a href="/page-contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-3">
-            <div className="column subscribe-minimal">
-              <ul className="rest social-icon d-flex align-items-center">
-                <li>
-                  <a
-                    href="https://www.facebook.com/onedigitalmediaest/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover-anim"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li className="ml-10">
-                  <a
-                    href="https://www.linkedin.com/company/onedigitalmediaest"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover-anim"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li className="ml-10">
-                  <a
-                    href="https://www.instagram.com/onedigitalmediaest/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover-anim"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <i className="fab fa-instagram"></i>
-                  </a>
                 </li>
               </ul>
             </div>
