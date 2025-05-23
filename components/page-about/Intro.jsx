@@ -2,20 +2,14 @@ import React from "react";
 
 function Intro() {
   return (
-    <section className="page-intro section-padding pb-0">
+    <section className="page-intro  pb-0">
       <div className="container">
         <div className="row md-marg">
           <div className="col-lg-6">
             <div className="img md-mb80">
               <div className="row">
                 <div className="col-6">
-                  <img src="/assets/imgs/intro/i1.jpg" alt="" />
-                  <div className="img-icon">
-                    <img src="/assets/imgs/arw0.png" alt="" />
-                  </div>
-                </div>
-                <div className="col-6 mt-40">
-                  <img src="/assets/imgs/intro/i2.jpg" alt="" />
+                  <img src="/assets/imgs/port.svg" alt="" />
                 </div>
               </div>
             </div>

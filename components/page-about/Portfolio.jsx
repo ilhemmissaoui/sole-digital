@@ -73,7 +73,7 @@ function Portfolio() {
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
               <div className="icon-img-80 opacity-7">
-                <img src="/assets/imgs/serv-icons/5.png" alt="" />
+                <img src="/assets/imgs/icons/1.svg" alt="" />
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ function Portfolio() {
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
               <div className="icon-img-80 opacity-7">
-                <img src="/assets/imgs/serv-icons/4.png" alt="" />
+                <img src="/assets/imgs/icons/2.svg" alt="" />
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ function Portfolio() {
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
               <div className="icon-img-80 opacity-7">
-                <img src="/assets/imgs/serv-icons/3.png" alt="" />
+                <img src="/assets/imgs/icons/3.svg" alt="" />
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ function Portfolio() {
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
               <div className="icon-img-80 opacity-7">
-                <img src="/assets/imgs/serv-icons/3.png" alt="" />
+                <img src="/assets/imgs/icons/4.svg" alt="" />
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@ function Portfolio() {
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
               <div className="icon-img-80 opacity-7">
-                <img src="/assets/imgs/serv-icons/3.png" alt="" />
+                <img src="/assets/imgs/icons/5.svg" alt="" />
               </div>
             </div>
           </div>
