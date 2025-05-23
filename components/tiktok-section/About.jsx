@@ -17,7 +17,7 @@ function About() {
                 <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/tiktok.png" alt="" />
+                <img src="/assets/imgs/tiktok.png" alt= "" />
               </span>
               <span className="icon">
                 <img src="/assets/imgs/tiktok.png" alt="" />
@@ -26,14 +26,10 @@ function About() {
           </div>
           <div className="col-lg-7 valign">
             <div className="cont">
-              <a
-                href="/blogs"
-                className="d-flex align-items-center main-color mt-40"
-              >
-                <span className="text mr-15">Read More</span>
-                <span className="ti-arrow-top-right"></span>
-              </a>
               <div className="text">
+                <div className="d-flex align-items-center main-color mt-40 mb-15">
+                  <span className="text mr-15">TikTok Agency</span>
+                </div>
                 <h4 className="mb-30">Unlocking Growth with a TikTok Agency</h4>
                 <p>
                   TikTok agency is a specialized marketing service that helps
@@ -82,6 +78,13 @@ function About() {
                     </div>
                   </div>
                 </div>
+                <a
+                  href="/tiktok-agency"
+                  className="d-flex align-items-center main-color mt-40"
+                >
+                  <span className="text mr-15">Read More</span>
+                  <span className="ti-arrow-top-right"></span>
+                </a>
               </div>
             </div>
           </div>

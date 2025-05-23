@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Works() {
   return (
@@ -7,12 +7,12 @@ function Works() {
         <div className="row">
           <div className="col-lg-6">
             <div className="img md-mb30">
-              <img src="/assets/imgs/works/3/2.jpg" alt="" />
+              <img src="/assets/imgs/fa.svg" alt="" />
             </div>
           </div>
           <div className="col-lg-6">
             <div className="img">
-              <img src="/assets/imgs/works/3/3.jpg" alt="" />
+              <img src="/assets/imgs/stair.svg" alt="" />
             </div>
           </div>
         </div>

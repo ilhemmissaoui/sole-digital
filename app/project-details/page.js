@@ -43,7 +43,7 @@ export default function Home() {
             <Works />
             <Solution />
             <Wroks2 />
-            <Next />
+            {/* <Next /> */}
           </main>
           <Footer />
         </div>

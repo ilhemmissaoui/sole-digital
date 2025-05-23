@@ -1,21 +1,21 @@
-'use client';
-import React from 'react';
-import data from '@/data/testimonials';
-import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React from "react";
+import data from "@/data/testimonials";
+import { Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 function Testimonials() {
   const swiperOptions = {
     modules: [Pagination, Navigation],
     spaceBetween: 30,
     loop: true,
     pagination: {
-      el: '.testimonials-minim .swiper-pagination',
+      el: ".testimonials-minim .swiper-pagination",
       clickable: true,
     },
 
     navigation: {
-      nextEl: '.testimonials-minim .swiper-button-next',
-      prevEl: '.testimonials-minim .swiper-button-prev',
+      nextEl: ".testimonials-minim .swiper-button-next",
+      prevEl: ".testimonials-minim .swiper-button-prev",
     },
   };
   return (
@@ -25,10 +25,7 @@ function Testimonials() {
           <div className="col-lg-4 md-mb50">
             <div className="img-full">
               <div className="fit-img">
-                <img src="/assets/imgs/testim/bg.jpg" alt="" />
-              </div>
-              <div className="fix-img">
-                <img src="/assets/imgs/arw1.png" alt="" />
+                <img src="/assets/imgs/group9.png" alt="" />
               </div>
             </div>
           </div>

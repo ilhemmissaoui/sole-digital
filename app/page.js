@@ -18,7 +18,7 @@ import Marq from "@/components/home-main/Marq";
 import About from "@/components/tiktok-section/About";
 
 export const metadata = {
-  title: "soleDigital",
+  title: "SoleDigitalMedia",
   icons: {
     icon: "/assets/imgs/Logo3.svg",
     shortcut: "/assets/imgs/Logo3.svg",
@@ -45,6 +45,8 @@ export default async function Home() {
             <div></div>
 
             <Header />
+            {/* <h1>{t("title")}</h1> */}
+
             <Intro />
             <Marq />
             <Services />

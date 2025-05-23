@@ -1,26 +1,27 @@
-'use client';
-import React from 'react';
-import data from '@/data/portfolios/works1';
-import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React from "react";
+import data from "@/data/portfolios/works1";
+import { Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
 function Portfolio() {
-  const marquess = ['Our Portfolio']; // Replace with your actual array
+  const marquess = ["Our Portfolio"];
   const AllMarquess = Array(10).fill(marquess).flat();
   const swiperOptions = {
     modules: [Pagination, Navigation],
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     spaceBetween: 80,
     loop: true,
     touchRatio: 0.2,
     speed: 1500,
     pagination: {
-      el: '.work-crev .swiper-pagination',
-      type: 'progressbar',
+      el: ".work-crev .swiper-pagination",
+      type: "progressbar",
     },
 
     navigation: {
-      nextEl: '.work-crev .swiper-button-next',
-      prevEl: '.work-crev .swiper-button-prev',
+      nextEl: ".work-crev .swiper-button-next",
+      prevEl: ".work-crev .swiper-button-prev",
     },
   };
   return (
@@ -37,10 +38,7 @@ function Portfolio() {
               </h3>
             </div>
             <div className="ml-auto vi-more">
-              <a
-                href="/portfolio-gallery"
-                className="butn butn-sm butn-bord radius-30"
-              >
+              <a href="#" className="butn butn-sm butn-bord radius-30">
                 <span>View All</span>
               </a>
               <span className="icon ti-arrow-top-right"></span>
@@ -62,9 +60,11 @@ function Portfolio() {
                 {data.map((item, i) => (
                   <SwiperSlide key={i}>
                     <div className="item">
-                      <div className="img">
-                        <img src={item.img} alt="" className="radius-15" />
-                      </div>
+                      <Link href="/project-details" passHref>
+                        <div className="img">
+                          <img src={item.img} alt="" className="radius-15" />
+                        </div>
+                      </Link>
                       <div className="cont">
                         <h3>
                           <span className="text sub-bg">

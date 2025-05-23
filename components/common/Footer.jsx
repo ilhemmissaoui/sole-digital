@@ -77,7 +77,7 @@ function Footer() {
               </h6>
 
               <a href="#0" className="underline">
-                <span className="fz-22 main-color">+1(905)745 4395</span>
+                <span className="fz-22 main-color">+1 (905) 745 4395</span>
               </a>
             </div>
           </div>
