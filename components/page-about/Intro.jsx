@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Intro() {
   return (
@@ -23,12 +23,21 @@ function Intro() {
           <div className="col-lg-6 valign">
             <div className="cont">
               <h3 className="mb-30">
-               Sole Digital Media 
-                <span className="fw-200">Our services will help you </span> provide the best solution
-                   <span className="fw-200">so that your business can runsmoothly.</span> 
+                Sole Digital Media
+                <span className="fw-200">Our services will help you </span>{" "}
+                provide the best solution
+                <span className="fw-200">
+                  so that your business can runsmoothly.
+                </span>
               </h3>
               <p>
-              Sole Digital Media, founded in 2024, is a dynamic digital agency dedicated to empowering businesses with innovative digital solutions. Specializing in website development, graphic design, digital marketing, SEO optimization, content creation, social media management, and video production, we help brands thrive in the digital age. Our mission is to deliver tailored services that enhance your online presence, engage your audience, and drive measurable results.
+                Sole Digital Media is a full-service digital marketing and
+                creative agency dedicated to building impactful digital
+                experiences for businesses, creators, and organizations across
+                the globe. As a modern and agile agency, we combine strategic
+                thinking, innovative design, and cutting-edge technology to help
+                our clients grow, engage, and lead in an increasingly digital
+                world.
               </p>
               <a href="/page-services" className="underline main-color mt-40">
                 <span className="text">

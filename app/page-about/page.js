@@ -15,6 +15,7 @@ import Header from "@/components/page-about/Header";
 import Intro from "@/components/page-about/Intro";
 import Numbers from "@/components/page-about/Numbers";
 import Services from "@/components/page-about/Services";
+import Portfolio from "@/components/page-about/Portfolio";
 
 export const metadata = {
   title: "soleDigital",
@@ -44,10 +45,8 @@ export default function Home() {
             <Header />
             <Intro />
             <Numbers />
-            <Services />
-            {/* <Team />
-            <Testimonials /> */}
-            <Clients />
+            <Portfolio />
+
             <Blog />
             <Marq2 />
           </main>
