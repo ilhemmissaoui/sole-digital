@@ -8,8 +8,8 @@ function Intro() {
           <div className="col-lg-6">
             <div className="img md-mb80">
               <div className="row">
-                <div className="col-6">
-                  <img src="/assets/imgs/port.svg" alt="" />
+                <div className="col-12">
+                  <img src="/assets/imgs/titrr.png" alt="" />
                 </div>
               </div>
             </div>
