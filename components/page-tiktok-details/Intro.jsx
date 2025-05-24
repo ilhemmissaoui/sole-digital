@@ -169,9 +169,32 @@ function Intro() {
             </div>
           </div>
         </div>
+
         <div className="container mt-70">
-          <div className="row lg-marg">
-            <div className="col-lg-7">
+          <div
+            className="row lg-marg"
+            style={{
+              position: "relative",
+              padding: "40px",
+              borderRadius: "15px",
+              color: "white", // Add this to make text readable on dark background
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundImage: 'url("/assets/imgs/cover1.JPG")',
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                zIndex: -1,
+                borderRadius: "15px",
+              }}
+            />
+            <div className="col-lg-12">
               <div className="title mt-20">
                 <h4>Supported Regions</h4>
               </div>
@@ -223,146 +246,78 @@ function Intro() {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-5 d-none d-lg-block">
-              <div
-                className="img-full fit-img sticky-top"
-                style={{
-                  height: "600px",
-                  overflow: "hidden",
-                  top: "100px",
-                  width: "100%",
-                  position: "sticky",
-                }}
-              >
-                <img
-                  src="/assets/imgs/header/m3.jpg"
-                  alt=""
-                  style={{
-                    height: "100%",
-                    width: "100%",
-                    objectFit: "cover",
-                  }}
-                />
-              </div>
-            </div>
           </div>
           <div className="sec-head mt-60">
-            <h3 className=" main-color mb-15">
+            <h3 className="main-color mb-15">
               LIVE feature access without 1,000 followers is subject to TikTok
               review and approval.
             </h3>
           </div>
-          <div className="col-lg-7">
-            <div className="title mt-20">
-              <h4>What You&apos;ll Gain?</h4>
-            </div>
-            <div className="text mt-15">
-              <div>
-                <ul className="rest dot-list">
-                  <li className="mb-10">
-                    Monthly Bonus Coins & Milestone Rewards
-                  </li>
-                  <li className="mb-10">
-                    PK Battles & Creator-Only Competitions
-                  </li>
-                  <li className="mb-10">
-                    Invitations to Official TikTok Campaigns
-                  </li>
-                  <li className="mb-10">
-                    Advanced LIVE Analytics & Performance Insights
-                  </li>
-                  <li className="mb-10">
-                    One-on-One Strategy Support & Ongoing Coaching
-                  </li>
-                  <li className="mb-10">
-                    Full Compliance Guidance with TikTok Rules & Standards
-                  </li>
-                </ul>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="col-lg-7">
-            <div className="title mt-20">
-              <h4> How to Join?</h4>
-            </div>
-            <div className="text mt-15">
-              <div>
-                <ul className="rest dot-list">
-                  <li className="mb-10">
-                    STEP 1: Fill out our registration form to check your
-                    eligibility
-                  </li>
-                  <li className="mb-10">
-                    STEP 2: Our team reviews your profile and submits it to
-                    TikTok
-                  </li>
-                  <li className="mb-10">
-                    STEP 3: If approved, you&apos;ll receive an official invite
-                    via the TikTok app
-                  </li>
-                  <li className="mb-10">
-                    STEP 4: Accept the invite and enjoy all agency benefits!
-                  </li>
-                </ul>
-              </div>
-            </div>{" "}
-          </div>
 
-          <div className="col-lg-7">
-            <div className="title mt-20">
-              <h4> Do I need to pay to join?</h4>
-            </div>
-            <div className="text mt-15">
-              <div>
-                <p>
-                  No. Sole Digital Media charges zero commission on your LIVE
-                  earnings. It&apos;s completely free to join. A management fee
-                  may apply only for brand partnerships — fully disclosed in
-                  advance.
-                </p>
+          <div className="row justify-content-between mt-50">
+            {[
+              {
+                title: "What You'll Gain?",
+                content: [
+                  "Monthly Bonus Coins & Milestone Rewards",
+                  "PK Battles & Creator-Only Competitions",
+                  "Invitations to Official TikTok Campaigns",
+                ],
+              },
+              {
+                title: "How to Join?",
+                content: [
+                  "Fill out our registration form",
+                  "Our team reviews your profile",
+                  "Receive official invite via TikTok app",
+                ],
+              },
+              {
+                title: "Benefits",
+                content:
+                  "Full support for your TikTok LIVE career including coaching, analytics, and brand deals.",
+              },
+              {
+                title: "Cost to Join",
+                content:
+                  "Zero commission on LIVE earnings. Management fee only applies to brand partnerships.",
+              },
+            ].map((item, index) => (
+              <div className="col-lg-6 mb-30 px-3" key={index}>
+                <div
+                  className="card-simple"
+                  style={{
+                    background: "var(--main-color)",
+                    borderRadius: "15px",
+                    border: "1px solid rgba(255, 255, 255, 0.1)",
+                    color: "#fff",
+                    padding: "15px 15px",
+                    minHeight: "200px",
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-start",
+                    margin: "0 auto",
+                    maxWidth: "550px",
+                  }}
+                >
+                  <h4 className="mb-20">{item.title}</h4>
+                  <div className="content" style={{ flex: 1 }}>
+                    {Array.isArray(item.content) ? (
+                      <ul className="rest dot-list">
+                        {item.content.map((line, i) => (
+                          <li className="mb-15" key={i}>
+                            {line}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p>{item.content}</p>
+                    )}
+                  </div>
+                </div>
               </div>
-            </div>{" "}
-          </div>
-          <div className="col-lg-7">
-            <div className="title mt-20">
-              <h4>Is Sole Digital Media officially linked to TikTok?</h4>
-            </div>
-            <div className="text mt-15">
-              <div>
-                <p>
-                  Yes. We are a verified TikTok LIVE Creator Network Partner,
-                  authorized for operations across MENA, USA, and Canada.
-                </p>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="col-lg-7">
-            <div className="title mt-20">
-              <h4> Can I be in two agencies at once?</h4>
-            </div>
-            <div className="text mt-15">
-              <div>
-                <p>
-                  No. TikTok allows creators to be part of only one LIVE agency
-                  at a time. You must leave any existing agency to join us.
-                </p>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="col-lg-7">
-            <div className="title mt-20">
-              <h4>What are the benefits?</h4>
-            </div>
-            <div className="text mt-15">
-              <div>
-                <p>
-                  From coaching, content strategies, analytics, feature unlocks,
-                  brand deals, and bonus programs, Sole Digital Media provides
-                  end-to-end support for your TikTok LIVE career.
-                </p>
-              </div>
-            </div>{" "}
+            ))}
           </div>
         </div>
       </section>
