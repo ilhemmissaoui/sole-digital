@@ -7,7 +7,7 @@ const today = new Date().toLocaleDateString("en-US", {
 const blogPosts = [
   {
     id: 1,
-    imgSrc: "/assets/imgs/blog/1.jpg",
+    imgSrc: "/assets/imgs/blog/blogg1.PNG",
     author: "Sole Digital",
     date: today,
     title: "Maximize Your Reach with Professional SEO Services",
@@ -15,7 +15,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    imgSrc: "/assets/imgs/blog/2.jpg",
+    imgSrc: "/assets/imgs/blog/brandmarketing.jpg",
     author: "Sole Digital",
     date: today,
     title: "Boost Your Brand with Expert Social Media Marketing Services",
@@ -23,7 +23,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    imgSrc: "/assets/imgs/blog/3.jpg",
+    imgSrc: "/assets/imgs/blog/web.jpg",
     author: "Sole Digital",
     date: today,
     title:
@@ -32,47 +32,12 @@ const blogPosts = [
   },
   {
     id: 4,
-    imgSrc: "/assets/imgs/blog/2.jpg",
+    imgSrc: "/assets/imgs/blog/contentmarketing.jpg",
     author: "Sole Digital",
     date: today,
     title:
       "Build Strong Customer Relationships with Comprehensive Content Marketing Services",
     detailsLink: "/blog-details/4",
-  },
-  {
-    id: 5,
-    imgSrc: "/assets/imgs/blog/1.jpg",
-    author: "Sole Digital",
-    date: today,
-    title:
-      "Drive Traffic and Sales with Targeted Pay-Per-Click (PPC) Advertising Services",
-    detailsLink: "/blog-details/5",
-  },
-  {
-    id: 6,
-    imgSrc: "/assets/imgs/blog/3.jpg",
-    author: "Sole Digital",
-    date: today,
-    title:
-      "Typography: Choosing Fonts for Maximum ImpactEnhance Customer Engagement with Effective Email Marketing Services",
-    detailsLink: "/blog-details/6",
-  },
-  {
-    id: 6,
-    imgSrc: "/assets/imgs/blog/3.jpg",
-    author: "Sole Digital",
-    date: today,
-    title: "Leverage the Power of Influencer Marketing to Grow Your Brand",
-    detailsLink: "/blog-details/7",
-  },
-  {
-    id: 6,
-    imgSrc: "/assets/imgs/blog/3.jpg",
-    author: "Sole Digital",
-    date: today,
-    title:
-      "Maximize Your Brand’s Impact: A Holistic Approach to Digital Marketing",
-    detailsLink: "/blog-details/8",
   },
 ];
 

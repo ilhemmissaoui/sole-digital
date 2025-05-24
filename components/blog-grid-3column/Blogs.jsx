@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Blogs() {
   return (
@@ -8,7 +8,7 @@ function Blogs() {
           <div className="col-md-6 col-lg-4">
             <div className="item mb-50">
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/1.jpg" alt="" />
+                <img src="/assets/imgs/blog/blogg1.PNG" alt="" />
               </div>
               <div className="cont pt-40">
                 <div className="info sub-title p-color d-flex align-items-center mb-15">
@@ -132,7 +132,7 @@ function Blogs() {
           <div className="col-md-6 col-lg-4">
             <div className="item sm-mb50">
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/1.jpg" alt="" />
+                <img src="/assets/imgs/blog/blogg1.PNG" alt="" />
               </div>
               <div className="cont pt-40">
                 <div className="info sub-title p-color d-flex align-items-center mb-15">

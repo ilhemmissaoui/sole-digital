@@ -26,7 +26,7 @@ function Blog() {
           <div className="col-lg-6">
             <div className="item md-mb50">
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/1.jpg" alt="" />
+                <img src="/assets/imgs/blog/blogg1.PNG" alt="" />
               </div>
               <div className="cont pt-40">
                 <div className="info sub-title p-color d-flex align-items-center mb-15">

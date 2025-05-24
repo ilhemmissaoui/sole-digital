@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Blog() {
   return (
@@ -37,7 +37,7 @@ function Blog() {
                 </div>
               </div>
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/1.jpg" alt="" />
+                <img src="/assets/imgs/blog/blogg1.PNG" alt="" />
               </div>
               <div className="cont pt-30">
                 <h5>Design Inspiration: Where to Find Creative Ideas</h5>
