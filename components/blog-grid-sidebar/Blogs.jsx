@@ -6,7 +6,7 @@ const today = new Date().toLocaleDateString("en-US", {
 });
 const blogPosts = [
   {
-    id: 1,
+    id: 3,
     imgSrc: "/assets/imgs/blog/blogg1.PNG",
     author: "Sole Digital",
     date: today,
@@ -22,7 +22,7 @@ const blogPosts = [
     detailsLink: "/blog-details/2",
   },
   {
-    id: 3,
+    id: 4,
     imgSrc: "/assets/imgs/blog/web.jpg",
     author: "Sole Digital",
     date: today,
