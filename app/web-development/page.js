@@ -12,10 +12,10 @@ import Intro from "@/components/page-web-development/Intro";
 import Services from "@/components/home-main/Services";
 
 export const metadata = {
-  title: "soleDigital",
+  title: "SoleDigitalMedia",
   icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico",
+    icon: "/assets/imgs/Logo.svg",
+    shortcut: "/assets/imgs/Logo.svg",
     other: generateStylesheetObject([
       "/assets/css/plugins.css",
       "/assets/css/style.css",

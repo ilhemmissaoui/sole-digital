@@ -41,12 +41,3 @@ next-env.d.ts
 *.swo
 *.swn
 .DS_Store
-
-# Large files
-out.zip
-/out/
-
-# Git temporary files
-.git/objects/*
-.git/index.lock
-*.lock

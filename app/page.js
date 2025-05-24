@@ -20,8 +20,8 @@ import About from "@/components/tiktok-section/About";
 export const metadata = {
   title: "SoleDigitalMedia",
   icons: {
-    icon: "/assets/imgs/logo.png",
-    shortcut: "/assets/imgs/logo.png",
+    icon: "/assets/imgs/Logo.svg",
+    shortcut: "/assets/imgs/Logo.svg",
     other: generateStylesheetObject([
       "/assets/css/plugins.css",
       "/assets/css/style.css",
