@@ -48,8 +48,8 @@ function Intro() {
                       growing their audience, boosting engagement, and unlocking
                       monetization opportunities. At Sole Digital Media, we
                       guide you through every step of your TikTok LIVE journey
-                      while ensuring full compliance with TikTok's policies and
-                      Community Guidelines.
+                      while ensuring full compliance with TikTok&apos;s policies
+                      and Community Guidelines.
                     </p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ function Intro() {
                         </li>
                         <li className="mb-10">
                           Ensure your success while staying aligned with
-                          TikTok's Community Guidelines
+                          TikTok&apos;s Community Guidelines
                         </li>
                       </ul>
                     </div>
@@ -187,7 +187,7 @@ function Intro() {
                 left: 0,
                 right: 0,
                 bottom: 0,
-                backgroundImage: 'url("/assets/imgs/cover1.JPG")',
+                backgroundImage: 'url("/assets/imgs/vs.jpg")',
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 zIndex: -1,
