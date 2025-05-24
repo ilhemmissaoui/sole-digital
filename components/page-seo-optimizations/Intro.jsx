@@ -104,7 +104,7 @@ function Intro() {
             </div>
             <div className="col-lg-4">
               <div className="img-full fit-img">
-                <img src="/assets/imgs/intro/2.jpg" alt="" />
+                <img src="/assets/imgs/serv/seo1.png" alt="" />
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Intro() {
           <div className="row xlg-marg">
             <div className="col-lg-6">
               <div className="img md-mb50">
-                <img src="/assets/imgs/arw2.png" alt="" />
+                <img src="/assets/imgs/serv/seo2.png" alt="" />
               </div>
             </div>
             <div className="col-lg-6 valign">
