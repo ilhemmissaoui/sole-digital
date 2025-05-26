@@ -33,7 +33,7 @@ function Services() {
           left: 0;
           right: 0;
           bottom: 0;
-          background-image: url("/assets/imgs/background/light.avif");
+          background-image: url("/assets/imgs/background/this.jpg");
           background-size: cover;
           background-position: center;
           animation: zoomInOut 3s infinite alternate ease-in-out;
@@ -56,7 +56,7 @@ function Services() {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundColor: "rgba(0, 0, 0, 0.7)",
+          backgroundColor: "rgba(18, 18, 18, 0.7)",
         }}
       ></div>
       <div className="container position-relative">
