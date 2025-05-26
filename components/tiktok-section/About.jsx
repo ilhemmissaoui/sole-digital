@@ -2,13 +2,16 @@ import React from "react";
 
 function About() {
   return (
-    <section className="about-author ">
+    <section className="about-author  mb-20 mt-30">
       <div className="container with-pad">
+        <div className="text-center mb-50">
+          <h1 className="main-color fz-70">TIKTOK CREATOR NETWORK AGENCY</h1>
+        </div>
         <div className="row lg-marg">
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <img src="/assets/imgs/friends.jpg" alt="" />
+                <img src="/assets/imgs/friend.jpg" alt="" />
               </div>
               <span className="icon">
                 <img src="/assets/imgs/tiktok.png" alt="" />
@@ -17,67 +20,33 @@ function About() {
                 <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/tiktok.png" alt= "" />
+                <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
               <span className="icon">
                 <img src="/assets/imgs/tiktok.png" alt="" />
               </span>
             </div>
           </div>
+
           <div className="col-lg-7 valign">
             <div className="cont">
               <div className="text">
-                <div className="d-flex align-items-center main-color mt-40 mb-15">
-                  <span className="text mr-15">TikTok Agency</span>
-                </div>
-                <h4 className="mb-30">Unlocking Growth with a TikTok Agency</h4>
+                <h4 className="mb-30">Empowering TikTok LIVE Creators</h4>
                 <p>
-                  TikTok agency is a specialized marketing service that helps
-                  brands grow their presence on TikTok through strategic content
-                  creation, influencer partnerships, paid advertising, and
-                  performance analysis. These agencies understand TikTok&apos;s
-                  unique algorithm, trends, and user behavior, enabling them to
-                  craft viral campaigns that drive engagement and increase brand
-                  visibility. Whether it&apos;s managing a brand&apos;s TikTok
-                  account or collaborating with content creators, a TikTok
-                  agency plays a key role in building authentic and impactful
-                  digital marketing on the platform.
+                  At Sole Digital Media, we proudly operate as an authorized
+                  TikTok LIVE Creator Network, dedicated to supporting and
+                  scaling livestream creators across the MENA region, USA, and
+                  Canada—all while strictly adhering to TikTok&apos;s Community
+                  Guidelines, LIVE policies, and ethical standards.
+                  <br /> Our mission is to empower creators by providing
+                  region-specific onboarding, localized content strategies, and
+                  tailored growth plans that respect cultural nuances and
+                  platform regulations in each market. Whether you are based in
+                  North America or the Middle East and North Africa, we deliver
+                  personalized support designed to maximize your TikTok LIVE
+                  visibility, engagement, and monetization.
                 </p>
 
-                <div className="numbers mt-50">
-                  <div className="row lg-marg">
-                    <div className="col-md-6">
-                      <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
-                        <div>
-                          <h3 className="fw-300 mb-10">100%</h3>
-                          <h6 className="p-color sub-title">
-                            Clients Satisfaction
-                          </h6>
-                        </div>
-                        <div className="ml-auto">
-                          <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
-                        <div>
-                          <h3 className="fw-300 mb-10">6700</h3>
-                          <h6 className="p-color sub-title">
-                            Projects Completed
-                          </h6>
-                        </div>
-                        <div className="ml-auto">
-                          <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <a
                   href="/tiktok-agency"
                   className="d-flex align-items-center main-color mt-40"

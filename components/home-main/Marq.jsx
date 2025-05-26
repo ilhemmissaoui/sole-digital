@@ -11,7 +11,7 @@ function Marq() {
     "Video Production",
   ];
   return (
-    <section className="opacity-7">
+    <section className="opacity-7 section-padding">
       <div className="main-marq xlrg o-hidden">
         <div className="slide-har st1 strok">
           <div className="box">

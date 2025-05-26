@@ -2,31 +2,40 @@ import React from "react";
 
 function Intro() {
   return (
-    <section className="intro section-padding">
-      <div className="container">
-        <div className="row lg-marg">
-          <div className="col-lg-8 md-mb80">
-            <div className="row lg-marg align-items-center">
-              <div className="col-md-6">
-                <div className="img1 sm-mb50">
-                  <img src="/assets/imgs/tt.svg" alt="" />
+    <section className="intro ">
+      <div className="container-xxl ">
+        <div className="row lg-marg mt-80">
+          <div className="col-lg-12 md-mb80">
+            <div className="row lg-marg align-items-center justify-content-between">
+              <div className="col-md-4">
+                <div className="img-full fit-img h-100 d-flex align-items-center">
+                  <img
+                    src="/assets/imgs/tt.svg"
+                    alt=""
+                    className="w-100"
+                    style={{ objectFit: "contain" }}
+                  />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <div className="text">
-                  <h3 className="mb-30">
-                    We believe in the power of
-                    <span className="fw-300">individual</span>{" "}
-                    <span className="fw-300">contribution.</span>
-                  </h3>
+                  <span className="rotate-text">
+                    <h3>
+                      Unlock Your Brand&apos;s Digital Potential with Sole
+                      Digital Media.
+                    </h3>
+                  </span>
                   <p>
-                    At Sole Digital Media, we offer a comprehensive range of
-                    digital marketing services designed to elevate your brand’s
-                    online presence and drive measurable results. Our expert
-                    team employs cutting-edge strategies and innovative
-                    solutions tailored to meet your business needs. Explore our
-                    core services below to see how we can help you achieve your
-                    marketing goals
+                    At Sole Digital Media, we believe in the power of individual
+                    contributions to drive collective success. Our full-suite
+                    digital marketing services are strategically designed to
+                    amplify your brand&apos;s online visibility, engage your
+                    target audience, and deliver measurable ROI. Backed by a
+                    team of seasoned professionals, we harness the latest tools,
+                    data-driven strategies, and creative solutions—tailored
+                    specifically to your business objectives. Explore our core
+                    services below and discover how we can help your brand grow
+                    in today&apos;s competitive digital landscape.
                   </p>
 
                   <a href="/page-about" className="underline main-color mt-40">
@@ -36,43 +45,16 @@ function Intro() {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="numbers mt-80">
-              <div className="row lg-marg">
-                <div className="col-md-6">
-                  <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
-                    <div>
-                      <h3 className="fw-300 mb-10">100%</h3>
-                      <h6 className="p-color sub-title">
-                        Clients Satisfaction
-                      </h6>
-                    </div>
-                    <div className="ml-auto">
-                      <div className="icon-img-40">
-                        <img src="/assets/imgs/arw0.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
-                    <div>
-                      <h3 className="fw-300 mb-10">6700</h3>
-                      <h6 className="p-color sub-title">Projects Completed</h6>
-                    </div>
-                    <div className="ml-auto">
-                      <div className="icon-img-40">
-                        <img src="/assets/imgs/arw0.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
+              <div className="col-md-4">
+                <div className="img-full fit-img h-100 d-flex align-items-center">
+                  <img
+                    src="/assets/imgs/background/Subtract.png"
+                    alt=""
+                    className="w-100"
+                    style={{ objectFit: "contain" }}
+                  />
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="img-full fit-img">
-              <img src="/assets/imgs/intro/04.jpg" alt="" />
             </div>
           </div>
         </div>

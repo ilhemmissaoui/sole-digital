@@ -21,8 +21,45 @@ function Services() {
   };
 
   return (
-    <section className="services section-padding">
-      <div className="container">
+    <section className="services section-padding position-relative">
+      <style jsx>{`
+        .services {
+          overflow: hidden;
+        }
+        .services::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url("/assets/imgs/background/light.avif");
+          background-size: cover;
+          background-position: center;
+          animation: zoomInOut 3s infinite alternate ease-in-out;
+          z-index: 0;
+        }
+        @keyframes zoomInOut {
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.3);
+          }
+        }
+      `}</style>
+      <div
+        className="overlay-dark"
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
+        }}
+      ></div>
+      <div className="container position-relative">
         <div className="sec-head mb-80">
           <div className="d-flex align-items-center">
             <div>
@@ -50,12 +87,13 @@ function Services() {
             <div
               key={i}
               className="item-box h-[400px] flex flex-col justify-between"
+              style={{ color: "#fff" }}
             >
               <div className="icon mb-40 opacity-5">
                 <img src={item.img} alt="" />
               </div>
               <h5 className="mb-15">{item.title}</h5>
-              <p>{item.desc}</p>
+              <p style={{ color: "#fff" }}>{item.desc}</p>
               <a href={item.link} className="rmore mt-30">
                 <span className="sub-title">Read More</span>
                 <img
