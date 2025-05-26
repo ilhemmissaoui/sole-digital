@@ -6239,13 +6239,6 @@ footer.clean-footer.crev .circle-blur {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Blur the background behind */
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
-  
-  border-radius: 12px;      /* Optional: rounded corners */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
 }
 
 .process .item {
