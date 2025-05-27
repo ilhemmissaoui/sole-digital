@@ -4844,9 +4844,9 @@ footer.clean-footer.crev:after {
   backdrop-filter: blur(100px);
   position: absolute;
   top: 0;
-  left: 40px;
-  bottom: 40px;
-  right: 40px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
 }
 
 footer.clean-footer.crev .circle-blur {

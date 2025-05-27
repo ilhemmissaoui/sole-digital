@@ -7,7 +7,7 @@ function Feat() {
     loadBackgroudImages();
   }, []);
   return (
-    <section className="feat section-padding">
+    <section className="feat section-padding mt-100">
       <div className="container ontop">
         <div className="row justify-content-center">
           <div className="col-lg-10 text-center mb-50">

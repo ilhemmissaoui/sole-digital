@@ -7,37 +7,51 @@ function Contact() {
         <div className="row">
           <div className="col-lg-4 valign">
             <div className="sec-head info-box full-width md-mb80">
-              <div className="phone fz-20 fw-500 underline main-color">
-                <a href="#0">+216 58 944 414</a>
-                <br />
-                <a href="#0">+1(905) 745 4395</a>
-              </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
-                <h6 className="mb-15">Address</h6>
-                <p>Av. de Yasser Arafat, Sousse 4054</p>
+                <h6 className="mb-15">Tunisia</h6>
+                <div className="d-flex align-items-center gap-2 p-color">
+                  <i className="fas fa-map-marker-alt"></i>
+                  <p>Av. de Yasser Arafat, Sousse 4054</p>
+                </div>
                 <br />
-                <p>3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada</p>
-              </div>
-              <div className="morinfo mt-30 pb-30 bord-thin-bottom">
-                <h6 className="mb-15">Email</h6>
-                <p>info@soledigitalmedia.com</p>
+                <div className="phone fw-500">
+                  <a
+                    href="#0"
+                    className="d-flex align-items-center gap-2 p-color"
+                  >
+                    <i className="fas fa-phone"></i>
+                    +216 58 944 414
+                  </a>
+                </div>
+                <div className="morinfo mt-30 pb-30">
+                  <div className="d-flex align-items-center gap-2 p-color">
+                    <i className="fas fa-envelope"></i>
+                    <p>info@soledigitalmedia.tn</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="social-icon mt-50">
-                <a href="#0">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-dribbble"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-behance"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
+              <div className="morinfo mt-50 pb-30">
+                <h6 className="mb-15">Canada</h6>
+                <div className="d-flex align-items-start gap-2 p-color">
+                  <i className="fas fa-map-marker-alt pt-1"></i>
+                  <p>3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada</p>
+                </div>
+                <br />
+                <div className="phone fw-500">
+                  <div className="d-flex align-items-start gap-2 p-color">
+                    <i className="fas fa-phone pt-1"></i>
+                    <a href="#0">+1(905) 745 4395</a>
+                  </div>
+                </div>
+                <div className="morinfo mt-30 pb-30">
+                  <div className="d-flex align-items-start gap-2 p-color">
+                    <i className="fas fa-envelope pt-1"></i>
+                    <p>info@soledigitalmedia.com</p>
+                  </div>
+                </div>
               </div>
-            </div>
+            </div>{" "}
           </div>
           <div className="col-lg-7 offset-lg-1 valign">
             <div className="full-width">

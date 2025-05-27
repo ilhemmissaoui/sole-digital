@@ -7,78 +7,45 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/soleDigital.svg" alt="" />
-            </div>
-            <br />
-            <div className="column subscribe-minimal">
-              <ul className="rest social-icon d-flex align-items-center">
-                <li>
-                  <a
-                    href="https://www.facebook.com/onedigitalmediaest/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover-anim"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li className="ml-10">
-                  <a
-                    href="https://www.linkedin.com/company/soledigitalmedia/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover-anim"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li className="ml-10">
-                  <a
-                    href="https://www.instagram.com/onedigitalmediaest/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover-anim"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
+              <img src="/assets/imgs/logo.png" alt="" />
             </div>
           </div>
           <div className="col-lg-4">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Tunisia</h6>
-
-              <div className="p-color fw-400">
+              <div className="p-color fw-400 d-flex align-items-center gap-2">
+                <i className="fas fa-map-marker-alt"></i>
                 Av. de Yasser Arafat, Sousse 4054
-              </div>
-
-              <h6 className="mt-30 mb-15">
+              </div>{" "}
+              <br />
+              <div className="p-color fw-400 d-flex align-items-center gap-2 mt-4">
+                <i className="fas fa-envelope"></i>
                 <a href="#0">info@soledigitalmedia.tn</a>
-              </h6>
-              <a href="#0" className="underline">
-                <span className="fz-22 main-color">+216 58 944 414</span>
-              </a>
+              </div>
+              <div className="p-color fw-400 d-flex align-items-center gap-2 mt-4">
+                <i className="fas fa-phone"></i>
+                <a href="#0">+216 58 944 414</a>
+              </div>
             </div>
           </div>
 
           <div className="col-lg-4">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Canada</h6>
-
-              <div className="p-color fw-400">
-                3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada
+              <div className="p-color fw-400 d-flex align-items-start gap-2">
+                <i className="fas fa-map-marker-alt pt-1"></i>
+                <span>
+                  3465 Platinum Dr #208, Mississauga, ON L5M 2S1, Canada
+                </span>
               </div>
-              <h6 className="mt-30 mb-15">
+              <div className="p-color fw-400 d-flex align-items-center gap-2 mt-4">
+                <i className="fas fa-envelope"></i>
                 <a href="#0">info@soledigitalmedia.com</a>
-              </h6>
-
-              <a href="#0" className="underline">
-                <span className="fz-22 main-color">+1 (905) 745 4395</span>
-              </a>
+              </div>
+              <div className="p-color fw-400 d-flex align-items-center gap-2 mt-4">
+                <i className="fas fa-phone"></i>
+                <a href="#0">+1 (905) 745 4395</a>
+              </div>
             </div>
           </div>
 
@@ -102,6 +69,43 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="column subscribe-minimal mt-50">
+          <ul className="rest social-icon d-flex align-items-center justify-content-center">
+            <li>
+              <a
+                href="https://www.facebook.com/onedigitalmediaest/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-anim"
+                style={{ cursor: "pointer" }}
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li className="ml-10">
+              <a
+                href="https://www.linkedin.com/company/soledigitalmedia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-anim"
+                style={{ cursor: "pointer" }}
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li className="ml-10">
+              <a
+                href="https://www.instagram.com/onedigitalmediaest/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-anim"
+                style={{ cursor: "pointer" }}
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
@@ -115,6 +119,7 @@ function Footer() {
           </div>
         </div>
       </div>
+
       <div className="circle-blur">
         <img src="/assets/imgs/patterns/blur1.png" alt="" />
       </div>
