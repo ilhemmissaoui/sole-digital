@@ -6283,8 +6283,15 @@ footer.clean-footer.crev .circle-blur {
 }
 
 .services-crev .item-box {
-  padding: 60px 40px;
+  padding: 4rem 2.5rem; /* use rem instead of px */
   border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .services-crev .item-box h5 span {

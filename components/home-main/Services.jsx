@@ -47,6 +47,29 @@ function Services() {
             transform: scale(1.3);
           }
         }
+        .truncate-text {
+          display: -webkit-box;
+          -webkit-line-clamp: 5;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 1.5;
+          max-height: 7.5em; /* 5 lines x 1.5 line-height */
+        }
+
+        @media screen and (max-width: 768px) {
+          .truncate-text {
+            -webkit-line-clamp: 4;
+            max-height: 6em;
+          }
+        }
+
+        @media screen and (max-width: 480px) {
+          .truncate-text {
+            -webkit-line-clamp: 3;
+            max-height: 4.5em;
+          }
+        }
       `}</style>
       <div
         className="overlay-dark"
@@ -94,7 +117,9 @@ function Services() {
                 <img src={item.img} alt="" />
               </div>
               <h5 className="mb-15">{item.title}</h5>
-              <p style={{ color: "#fff" }}>{item.desc}</p>
+              <p className="truncate-text" style={{ color: "#fff" }}>
+                {item.desc}
+              </p>
               <div className="rmore mt-30 flex items-center">
                 <span className="sub-title">Read More</span>
                 <img
