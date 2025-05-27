@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function Marq2() {
-  const marquess = ['Get In Touch']; // Replace with your actual array
+  const marquess = ["Get In Touch"];
   const AllMarquess = Array(6).fill(marquess).flat();
-  const contact = ['Contact Us']; // Replace with your actual array
+  const contact = ["Contact Us"];
   const AllContact = Array(6).fill(contact).flat();
 
   return (

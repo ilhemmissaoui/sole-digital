@@ -25,7 +25,7 @@ function Footer() {
                 </li>
                 <li className="ml-10">
                   <a
-                    href="https://www.linkedin.com/company/onedigitalmediaest"
+                    href="https://www.linkedin.com/company/soledigitalmedia/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover-anim"

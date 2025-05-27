@@ -49,7 +49,7 @@ function Portfolio() {
   return (
     <section className="services-inline2 section-padding">
       <div className="container ontop">
-        <div className="sec-head mb-80">
+        <div className="sec-head mb-50">
           <div className="d-flex align-items-center">
             <div>
               <h3 className="fw-600 fz-50 text-u d-rotate wow">
@@ -72,7 +72,7 @@ function Portfolio() {
               <p>Delivering uncompromising quality in every project.</p>
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
-              <div className="icon-img-80 opacity-7">
+              <div className="icon-img-50 ">
                 <img src="/assets/imgs/icons/1.svg" alt="" />
               </div>
             </div>
@@ -94,7 +94,7 @@ function Portfolio() {
               <p>Embracing change, technology, and forward-thinking ideas.</p>
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
-              <div className="icon-img-80 opacity-7">
+              <div className="icon-img-50 ">
                 <img src="/assets/imgs/icons/2.svg" alt="" />
               </div>
             </div>
@@ -116,7 +116,7 @@ function Portfolio() {
               <p>Operating with transparency, accountability, and respect.</p>
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
-              <div className="icon-img-80 opacity-7">
+              <div className="icon-img-50 ">
                 <img src="/assets/imgs/icons/3.svg" alt="" />
               </div>
             </div>
@@ -140,7 +140,7 @@ function Portfolio() {
               </p>
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
-              <div className="icon-img-80 opacity-7">
+              <div className="icon-img-50 ">
                 <img src="/assets/imgs/icons/4.svg" alt="" />
               </div>
             </div>
@@ -165,7 +165,7 @@ function Portfolio() {
               </p>
             </div>
             <div className="col-lg-2 d-flex justify-content-center">
-              <div className="icon-img-80 opacity-7">
+              <div className="icon-img-50 ">
                 <img src="/assets/imgs/icons/5.svg" alt="" />
               </div>
             </div>

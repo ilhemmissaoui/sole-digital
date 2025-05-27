@@ -6240,12 +6240,12 @@ footer.clean-footer.crev .circle-blur {
   flex-direction: column;
   justify-content: space-between;
 
-  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Blur the background behind */
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
   
-  border-radius: 12px;      /* Optional: rounded corners */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
+  border-radius: 12px;     
+  border: 1px solid rgba(255, 255, 255, 0.3); 
 }
 
 .process .item {
@@ -6518,16 +6518,37 @@ footer.clean-footer.crev .circle-blur {
 
 .feat {
   position: relative;
+  padding: 1rem;
 }
 
 .feat .item {
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+  box-sizing: border-box;
 }
 
 .feat .item .info {
-  padding: 30px;
-  height:350px
+  padding: 2rem;
+  height: auto; /* remove fixed height */
+  min-height: 400px; /* optional */
+  box-sizing: border-box;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .feat .item .info {
+    padding: 1.5rem;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feat .item .info {
+    padding: 1rem;
+    min-height: 400px;
+  }
+}
+
 
 .feat .circle-blur {
   position: absolute;

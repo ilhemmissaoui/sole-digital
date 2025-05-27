@@ -3,7 +3,7 @@ import React from "react";
 function Intro() {
   return (
     <section className="intro ">
-      <div className="container-xxl ">
+      <div className="container ">
         <div className="row lg-marg mt-80">
           <div className="col-lg-12 md-mb80">
             <div className="row lg-marg align-items-center justify-content-between">
@@ -20,10 +20,10 @@ function Intro() {
               <div className="col-md-4">
                 <div className="text">
                   <span className="rotate-text">
-                    <h3>
+                    <h5>
                       Unlock Your Brand&apos;s Digital Potential with Sole
                       Digital Media.
-                    </h3>
+                    </h5>
                   </span>
                   <p>
                     At Sole Digital Media, we believe in the power of individual

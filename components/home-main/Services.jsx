@@ -33,7 +33,7 @@ function Services() {
           left: 0;
           right: 0;
           bottom: 0;
-          background-image: url("/assets/imgs/background/this.jpg");
+          background-image: url("/assets/imgs/background/bg1.jpg");
           background-size: cover;
           background-position: center;
           animation: zoomInOut 3s infinite alternate ease-in-out;
@@ -56,7 +56,7 @@ function Services() {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundColor: "rgba(18, 18, 18, 0.7)",
+          backgroundColor: "rgba(22, 22, 22, 0.7)",
         }}
       ></div>
       <div className="container position-relative">
@@ -84,9 +84,10 @@ function Services() {
           itemClass="px-2"
         >
           {data.map((item, i) => (
-            <div
+            <a
               key={i}
-              className="item-box h-[400px] flex flex-col justify-between"
+              href={item.link}
+              className="item-box h-[400px] flex flex-col justify-between no-underline"
               style={{ color: "#fff" }}
             >
               <div className="icon mb-40 opacity-5">
@@ -94,15 +95,15 @@ function Services() {
               </div>
               <h5 className="mb-15">{item.title}</h5>
               <p style={{ color: "#fff" }}>{item.desc}</p>
-              <a href={item.link} className="rmore mt-30">
+              <div className="rmore mt-30 flex items-center">
                 <span className="sub-title">Read More</span>
                 <img
                   src="/assets/imgs/arrow-right.png"
                   alt=""
                   className="icon-img-20 ml-5"
                 />
-              </a>
-            </div>
+              </div>
+            </a>
           ))}
         </Carousel>
       </div>
