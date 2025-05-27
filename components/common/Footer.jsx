@@ -73,7 +73,7 @@ function Footer() {
           <ul className="rest social-icon d-flex align-items-center justify-content-center">
             <li>
               <a
-                href="https://www.facebook.com/onedigitalmediaest/"
+                href="https://www.facebook.com/soledigitalmedia1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover-anim"
@@ -95,7 +95,7 @@ function Footer() {
             </li>
             <li className="ml-10">
               <a
-                href="https://www.instagram.com/onedigitalmediaest/"
+                href="https://www.instagram.com/soledigitalmedia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover-anim"
