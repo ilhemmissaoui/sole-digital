@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://soledigitalmedia.com/sitemap.xml
+
+# Host
+Host: https://soledigitalmedia.com
+
+# Crawl-delay
+Crawl-delay: 10
