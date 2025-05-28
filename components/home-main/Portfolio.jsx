@@ -46,15 +46,15 @@ function Portfolio() {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-2 d-flex align-items-end">
+          {/* <div className="col-lg-2 d-flex align-items-end">
             <div className="text pb-100">
               <p>
                 We help our client suceed by creating identities, digital
                 experiences, and printmaterials that communicate clearly
               </p>
             </div>
-          </div>
-          <div className="col-lg-9">
+          </div> */}
+          <div className="col-lg-9 offset-lg-1">
             <div className="work-swiper">
               <Swiper {...swiperOptions} className="swiper-container">
                 {data.map((item, i) => (

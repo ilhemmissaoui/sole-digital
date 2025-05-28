@@ -1,7 +1,22 @@
 [
   {
     "img": "/assets/imgs/portfolio.svg",
-    "title": "Mails",
-    "subTitle": "Mobile app"
+    "title": "Sole ",
+    "subTitle": "Digital Media"
+  },
+  {
+    "img": "/assets/imgs/streets.png",
+    "title": "Sole ",
+    "subTitle": "Digital Media"
+  },
+  {
+    "img": "/assets/imgs/stair.svg",
+    "title": "Sole ",
+    "subTitle": "Digital Media"
+  },
+  {
+    "img": "/assets/imgs/Billboard Mockup.png",
+    "title": "Sole ",
+    "subTitle": "Digital Media"
   }
 ]

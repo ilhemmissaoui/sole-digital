@@ -1,25 +1,25 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
 
 function Portfolio() {
   function handleMouseEnter(event) {
-    var tab_id = event.currentTarget.getAttribute('data-tab');
+    var tab_id = event.currentTarget.getAttribute("data-tab");
 
-    document.querySelectorAll('.glry-img .tab-img').forEach((el) => {
-      el.classList.remove('current');
+    document.querySelectorAll(".glry-img .tab-img").forEach((el) => {
+      el.classList.remove("current");
     });
-    document.querySelectorAll('.content .cluom').forEach((el) => {
-      el.classList.remove('current');
+    document.querySelectorAll(".content .cluom").forEach((el) => {
+      el.classList.remove("current");
     });
 
-    document.querySelector('#' + tab_id).classList.add('current');
-    console.log(document.querySelector('#' + tab_id));
+    document.querySelector("#" + tab_id).classList.add("current");
+    console.log(document.querySelector("#" + tab_id));
     // document.querySelectorAll('.links-img .img').forEach((el) => {
     //   el.classList.remove('current');
     // });
 
-    if (!event.currentTarget.classList.contains('current')) {
-      event.currentTarget.classList.add('current');
+    if (!event.currentTarget.classList.contains("current")) {
+      event.currentTarget.classList.add("current");
     }
   }
   return (
@@ -78,7 +78,7 @@ function Portfolio() {
               >
                 <div className="info d-flex align-items-end">
                   <h4>
-                    <span className="mr-10 fz-16">01.</span>{' '}
+                    <span className="mr-10 fz-16">01.</span>{" "}
                     <a href="/project-details">Iridescent Wallpapers</a>
                   </h4>
                   <h6 className="sub-title p-color ml-20">/ Graphic design</h6>
@@ -94,7 +94,7 @@ function Portfolio() {
               >
                 <div className="info d-flex align-items-end">
                   <h4>
-                    <span className="mr-10 fz-16">02.</span>{' '}
+                    <span className="mr-10 fz-16">02.</span>{" "}
                     <a href="/project-details">Proof Template</a>
                   </h4>
                   <h6 className="sub-title p-color ml-20">/ Marketing</h6>
@@ -110,7 +110,7 @@ function Portfolio() {
               >
                 <div className="info d-flex align-items-end">
                   <h4>
-                    <span className="mr-10 fz-16">03.</span>{' '}
+                    <span className="mr-10 fz-16">03.</span>{" "}
                     <a href="/project-details">Ledge Phone</a>
                   </h4>
                   <h6 className="sub-title p-color ml-20">/ Branding</h6>
@@ -126,7 +126,7 @@ function Portfolio() {
               >
                 <div className="info d-flex align-items-end">
                   <h4>
-                    <span className="mr-10 fz-16">04.</span>{' '}
+                    <span className="mr-10 fz-16">04.</span>{" "}
                     <a href="/project-details">Frame Sans</a>
                   </h4>
                   <h6 className="sub-title p-color ml-20">/ App Design</h6>
@@ -142,7 +142,7 @@ function Portfolio() {
               >
                 <div className="info d-flex align-items-end">
                   <h4>
-                    <span className="mr-10 fz-16">05.</span>{' '}
+                    <span className="mr-10 fz-16">05.</span>{" "}
                     <a href="/project-details">Modern Minimalist</a>
                   </h4>
                   <h6 className="sub-title p-color ml-20">/ Developments</h6>

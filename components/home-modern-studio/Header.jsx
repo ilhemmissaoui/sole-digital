@@ -1,18 +1,18 @@
-'use client';
-import React, { useEffect, useLayoutEffect, useState } from 'react';
-import { gsap } from 'gsap';
-import { Autoplay, EffectFade, Keyboard, Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+"use client";
+import React, { useEffect, useLayoutEffect, useState } from "react";
+import { gsap } from "gsap";
+import { Autoplay, EffectFade, Keyboard, Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
     tl.fromTo(
-      '.header .container',
+      ".header .container",
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      "-=0"
     );
 
     return () => tl.kill();
@@ -28,7 +28,7 @@ function Header() {
     },
     spaceBetween: 0,
     slidesPerView: 1,
-    effect: 'fade',
+    effect: "fade",
     effectfade: {
       crossFade: true,
     },
@@ -37,11 +37,11 @@ function Header() {
     mousewheel: true,
     speed: 1500,
     navigation: {
-      nextEl: ' .swiper-controls .swiper-button-next',
-      prevEl: ' .swiper-controls .swiper-button-prev',
+      nextEl: " .swiper-controls .swiper-button-next",
+      prevEl: " .swiper-controls .swiper-button-prev",
     },
     pagination: {
-      el: '.modern-slider .swiper-pagination',
+      el: ".modern-slider .swiper-pagination",
       clickable: true,
       renderBullet: function (index, className) {
         return (
@@ -52,7 +52,7 @@ function Header() {
           '<circle class="path" cx="8" cy="8" r="5.5" fill="none" transform="rotate(-90 8 8)" stroke="#FFF"' +
           'stroke-opacity="1" stroke-width="1px"></circle>' +
           '<circle cx="8" cy="8" r="3" fill="#FFF"></circle>' +
-          '</svg></span>'
+          "</svg></span>"
         );
       },
     },
@@ -68,7 +68,7 @@ function Header() {
     modules: [Navigation],
     spaceBetween: 30,
     slidesPerView: 1,
-    direction: 'vertical',
+    direction: "vertical",
     loop: true,
     loopedSlides: 4,
     touchRatio: 0.2,
@@ -76,16 +76,16 @@ function Header() {
     mousewheel: true,
     speed: 1500,
     navigation: {
-      nextEl: '.modern-slider .swiper-controls .swiper-button-next',
-      prevEl: '.modern-slider .swiper-controls .swiper-button-prev',
+      nextEl: ".modern-slider .swiper-controls .swiper-button-next",
+      prevEl: ".modern-slider .swiper-controls .swiper-button-prev",
     },
   };
   useEffect(() => {
     if (galleryImg && galleryText) {
-      galleryImg.on('slideChangeTransitionStart', function () {
+      galleryImg.on("slideChangeTransitionStart", function () {
         galleryText.slideTo(galleryImg.activeIndex);
       });
-      galleryText.on('transitionStart', function () {
+      galleryText.on("transitionStart", function () {
         galleryImg.slideTo(galleryText.activeIndex);
       });
     }
@@ -143,7 +143,7 @@ function Header() {
               <div className="text">
                 <h5 className="main-color mb-15">01</h5>
                 <h1>
-                  Mails <br /> Mobile app
+                  Sole <br /> Digital Media
                 </h1>
                 <a
                   href="/project-details"
@@ -162,7 +162,7 @@ function Header() {
               <div className="text">
                 <h5 className="main-color mb-15">02</h5>
                 <h1>
-                  Mails <br /> Mobile app
+                  Sole <br /> Digital Media
                 </h1>
                 <a
                   href="/project-details"
@@ -181,7 +181,7 @@ function Header() {
               <div className="text">
                 <h5 className="main-color mb-15">03</h5>
                 <h1>
-                  Mails <br /> Mobile app
+                  Sole <br /> Digital Media
                 </h1>
                 <a
                   href="/project-details"

@@ -18,10 +18,17 @@ import Marq from "@/components/home-main/Marq";
 import About from "@/components/tiktok-section/About";
 
 export const metadata = {
-  title: "SoleDigitalMedia",
+  title: "Sole Digital Media | Leading Digital Marketing Agency",
+  description:
+    "Transform your business with Sole Digital Media's expert digital marketing services. Specializing in SEO, social media, content marketing, and digital advertising solutions.",
+  keywords:
+    "digital marketing agency, social media marketing, SEO services, digital advertising, content marketing",
+  alternates: {
+    canonical: "https://soledigitalmedia.com",
+  },
   icons: {
-    icon: "/assets/imgs/Logo.svg",
-    shortcut: "/assets/imgs/Logo.svg",
+    icon: "/assets/imgs/favicon.ico",
+    shortcut: "/assets/imgs/favicon.ico",
     other: generateStylesheetObject([
       "/assets/css/plugins.css",
       "/assets/css/style.css",
@@ -31,9 +38,38 @@ export const metadata = {
   },
 };
 
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "MarketingAgency",
+  name: "Sole Digital Media",
+  description: "Professional digital marketing agency offering comprehensive marketing solutions",
+  url: "https://soledigitalmedia.com",
+  logo: "https://soledigitalmedia.com/assets/imgs/logo.png",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Your City",
+    addressRegion: "Your Region",
+    addressCountry: "Your Country",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "your-phone",
+    contactType: "customer service",
+  },
+  sameAs: [
+    "https://www.facebook.com/soledigitalmedia",
+    "https://www.instagram.com/soledigitalmedia",
+    "https://www.linkedin.com/company/sole-digital-media",
+  ],
+};
+
 export default async function Home() {
   return (
     <body>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />

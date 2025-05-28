@@ -83,7 +83,7 @@ function Services() {
         }}
       ></div>
       <div className="container position-relative">
-        <div className="sec-head mb-80">
+        <div className="sec-head mb-100">
           <div className="d-flex align-items-center">
             <div>
               <span className="sub-title main-color mb-5">Our Specialize</span>

@@ -1,6 +1,14 @@
 User-agent: *
 Allow: /
 
+# Important pages
+Allow: /services
+Allow: /portfolio
+Allow: /about
+Allow: /contact
+Allow: /blogs
+Allow: /tiktok-agency
+
 # Sitemaps
 Sitemap: https://soledigitalmedia.com/sitemap.xml
 

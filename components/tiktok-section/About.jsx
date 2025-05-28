@@ -11,7 +11,7 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <img src="/assets/imgs/friend.jpg" alt="" />
+                <img src="/assets/imgs/social-media-influencer.jpg" alt="" />
               </div>
               <span className="icon">
                 <img src="/assets/imgs/tiktok.png" alt="" />
@@ -31,7 +31,7 @@ function About() {
           <div className="col-lg-7 valign">
             <div className="cont">
               <div className="text">
-                <h4 className="mb-30">Empowering TikTok LIVE Creators</h4>
+                <h4 className="mb-30 mt-20">Empowering TikTok LIVE Creators</h4>
                 <p>
                   At Sole Digital Media, we proudly operate as an authorized
                   TikTok LIVE Creator Network, dedicated to supporting and

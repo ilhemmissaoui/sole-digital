@@ -3,11 +3,11 @@ import React from "react";
 function Footer() {
   return (
     <footer className="clean-footer crev">
-      <div className="container pb-40 pt-40 ontop">
+      <div className="container  ontop">
         <div className="row justify-content-between">
           <div className="col-lg-2">
-            <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/logo.png" alt="" />
+            <div className="logo icon-img-120 md-mb80">
+              <img src="/assets/imgs/footerLogo.svg" alt="" />
             </div>
           </div>
           <div className="col-lg-4">
@@ -118,10 +118,6 @@ function Footer() {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="circle-blur">
-        <img src="/assets/imgs/patterns/blur1.png" alt="" />
       </div>
     </footer>
   );
