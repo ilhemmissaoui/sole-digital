@@ -1,21 +1,21 @@
 [
   {
-    "img": "/assets/imgs/portfolio.svg",
+    "img": "/assets/imgs/portfolio/1.png",
     "title": "Sole ",
     "subTitle": "Digital Media"
   },
   {
-    "img": "/assets/imgs/streets.png",
+    "img": "/assets/imgs/portfolio/2.png",
     "title": "Sole ",
     "subTitle": "Digital Media"
   },
   {
-    "img": "/assets/imgs/stair.svg",
+    "img": "/assets/imgs/portfolio/3.png",
     "title": "Sole ",
     "subTitle": "Digital Media"
   },
   {
-    "img": "/assets/imgs/Billboard Mockup.png",
+    "img": "/assets/imgs/portfolio/4.png",
     "title": "Sole ",
     "subTitle": "Digital Media"
   }

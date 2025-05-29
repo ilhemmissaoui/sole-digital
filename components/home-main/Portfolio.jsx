@@ -37,7 +37,8 @@ function Portfolio() {
                 </span>
               </h3>
             </div>
-            <div className="ml-auto vi-more">
+
+            <div className="ml-auto vi-more ">
               <a href="#" className="butn butn-sm butn-bord radius-30">
                 <span>View All</span>
               </a>
@@ -61,8 +62,22 @@ function Portfolio() {
                   <SwiperSlide key={i}>
                     <div className="item">
                       <Link href="/project-details" passHref>
-                        <div className="img">
-                          <img src={item.img} alt="" className="radius-15" />
+                        <div
+                          className="img"
+                          style={{
+                            aspectRatio: "4/3",
+                            width: "100%",
+                          }}
+                        >
+                          <img
+                            src={item.img}
+                            alt=""
+                            className="radius-15"
+                            style={{
+                              width: "100%",
+                              height: "100%",
+                            }}
+                          />
                         </div>
                       </Link>
                       <div className="cont">
