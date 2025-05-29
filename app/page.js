@@ -42,9 +42,10 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "MarketingAgency",
   name: "Sole Digital Media",
-  description: "Professional digital marketing agency offering comprehensive marketing solutions",
+  description:
+    "Professional digital marketing agency offering comprehensive marketing solutions",
   url: "https://soledigitalmedia.com",
-  logo: "https://soledigitalmedia.com/assets/imgs/logo.png",
+  logo: "https://soledigitalmedia.com/assets/imgs/favicon.ico",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Your City",
