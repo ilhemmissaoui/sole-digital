@@ -103,7 +103,7 @@ function Services() {
           autoPlaySpeed={1500}
           arrows
           keyBoardControl
-          containerClass="carousel-container"
+          containerClass="carousel-container pt-20"
           itemClass="px-2"
         >
           {data.map((item, i) => (

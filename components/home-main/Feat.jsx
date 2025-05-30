@@ -58,10 +58,10 @@ function Feat() {
                     </span>
                   </a>
                 </div>
-                <h1 className="text-center">
+                <h2 className="text-center">
                   Driven by Client Satisfaction
                   <br /> Powered by Collaboration
-                </h1>
+                </h2>
               </div>
               <h6 className="sub-title main-color mb-15">
                 At Sole Digital Media, our core mission is to deliver
