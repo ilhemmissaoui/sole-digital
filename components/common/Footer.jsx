@@ -6,11 +6,11 @@ function Footer() {
       <div className="container  pt-40 ontop">
         <div className="row justify-content-between">
           <div className="col-lg-2">
-            <div className="logo icon-img-120 md-mb80">
+            <div className="logo icon-img-170 md-mb80">
               <img src="/assets/imgs/footerLogo.svg" alt="" />
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 pl-30">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Tunisia</h6>
               <div className="p-color fw-400 d-flex align-items-center gap-2">
@@ -29,7 +29,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4 pl-30">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Canada</h6>
               <div className="p-color fw-400 d-flex align-items-start gap-2">
@@ -49,7 +49,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-lg-2">
+          <div className="col-lg-2 pl-30">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Useful Links</h6>
               <ul className="rest fz-14 opacity-7">

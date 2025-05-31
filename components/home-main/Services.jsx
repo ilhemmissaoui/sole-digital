@@ -1,10 +1,49 @@
 "use client";
-import React from "react";
+import React, { useLayoutEffect } from "react";
+import { gsap } from "gsap";
 import data from "@/data/services";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function Services() {
+  useLayoutEffect(() => {
+    const tl = gsap.timeline({
+      repeat: -1,
+      repeatDelay: 0.5,
+    });
+
+    // Split text into spans
+    const heading = document.querySelector(".animate-text");
+    const text = heading.textContent;
+    heading.textContent = "";
+    text.split("").forEach((char) => {
+      const span = document.createElement("span");
+      span.textContent = char === " " ? "\u00A0" : char;
+      span.style.display = "inline-block";
+      span.style.opacity = "0";
+      heading.appendChild(span);
+    });
+
+    // Repeating reveal animation
+    tl.to(".animate-text span", {
+      opacity: 1,
+      duration: 0.5,
+      stagger: 0.1,
+      ease: "none",
+    }).to(
+      ".animate-text span",
+      {
+        opacity: 0,
+        duration: 0.5,
+        stagger: 0.1,
+        ease: "none",
+      },
+      "+=1"
+    );
+
+    return () => tl.kill();
+  }, []);
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },
@@ -21,7 +60,7 @@ function Services() {
   };
 
   return (
-    <section className="services section-padding position-relative">
+    <section className="services section-padding position-relative ">
       <style jsx>{`
         .services {
           overflow: hidden;
@@ -84,6 +123,13 @@ function Services() {
       ></div>
       <div className="container position-relative">
         <div className="sec-head mb-100">
+          <div className="row">
+            <div className="col-12">
+              <div className="text-center mb-80">
+                <h1 className="text-u ls1 fz-80 animate-text">Our Services</h1>
+              </div>
+            </div>
+          </div>
           <div className="d-flex align-items-center">
             <div>
               <span className="sub-title main-color mb-5">Our Specialize</span>

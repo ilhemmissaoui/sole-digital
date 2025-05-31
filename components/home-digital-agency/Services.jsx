@@ -1,13 +1,13 @@
-'use client';
-import React from 'react';
-import data from '@/data/services';
+"use client";
+import React from "react";
+import data from "@/data/services";
 
 function Services() {
   function handleActiveSer(event) {
-    document.querySelectorAll('.serv-boxs .item').forEach((serv) => {
-      serv.classList.remove('active');
+    document.querySelectorAll(".serv-boxs .item").forEach((serv) => {
+      serv.classList.remove("active");
     });
-    event.currentTarget.classList.add('active');
+    event.currentTarget.classList.add("active");
   }
   return (
     <section className="services-modern section-padding">
@@ -35,7 +35,7 @@ function Services() {
             <div
               key={i}
               onClick={handleActiveSer}
-              className={`item ${i == 0 && 'active'}`}
+              className={`item ${i == 0 && "active"}`}
             >
               <div className="icon-img-60">
                 <img src={item.img} alt="" />

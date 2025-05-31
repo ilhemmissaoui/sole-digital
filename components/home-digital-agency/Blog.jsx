@@ -27,8 +27,8 @@ function Blog() {
   });
 
   return (
-    <section className="blog style2">
-      <div className="container">
+    <section className="blog style2 mt-80">
+      <div className="container mt-20">
         <div className="sec-head mb-80">
           <div className="d-flex align-items-center">
             <div>

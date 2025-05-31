@@ -11,13 +11,13 @@ export default function sitemap() {
     {
       url: `${baseUrl}/services`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/portfolio`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "monthly",
       priority: 0.8,
     },
     {
@@ -35,7 +35,7 @@ export default function sitemap() {
     {
       url: `${baseUrl}/blogs`,
       lastModified: new Date(),
-      changeFrequency: "daily",
+      changeFrequency: "monthly",
       priority: 0.9,
     },
     {

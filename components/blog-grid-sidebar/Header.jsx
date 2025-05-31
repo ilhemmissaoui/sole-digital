@@ -19,12 +19,73 @@ function Header() {
     loadBackgroudImages();
   }, []);
   return (
-    <div
-      className="header page-header bg-img section-padding valign"
-      data-background="/assets/imgs/background/bg4.jpg"
-      data-overlay-dark="8"
-    >
-      <div className="container pt-80">
+    <section className="services section-padding position-relative">
+      <style jsx>{`
+        .services {
+          overflow: hidden;
+        }
+        .services::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url("/assets/imgs/background/bg1.jpg");
+          background-size: cover;
+          background-position: center;
+          animation: zoomInOut 3s infinite alternate ease-in-out;
+          z-index: 0;
+        }
+        @keyframes zoomInOut {
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.3);
+          }
+        }
+
+        .container {
+          position: relative;
+          z-index: 2;
+        }
+
+        .text-center {
+          position: relative;
+          z-index: 2;
+          color: #fff;
+        }
+
+        h1 {
+          position: relative;
+          z-index: 2;
+          color: #fff;
+          margin-bottom: 30px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+          position: relative;
+          z-index: 2;
+          color: rgba(255, 255, 255, 0.9);
+          max-width: 800px;
+          margin: 0 auto;
+        }
+      `}</style>
+      <div
+        className="overlay-dark"
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
+          zIndex: 1,
+        }}
+      ></div>
+      <div className="container ">
         <div className="row">
           <div className="col-12">
             <div className="text-center">
@@ -45,7 +106,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

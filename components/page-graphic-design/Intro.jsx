@@ -49,47 +49,13 @@ function Intro() {
                       engagement and elevate digital products.
                     </p>
 
-                    <div className="mt-30">
+                    <div className="mt-100">
                       <ul className="rest dot-list">
                         <li className="mb-10">User Research & Analysis</li>
                         <li className="mb-10">Wireframing & Prototyping</li>
                         <li className="mb-10">UI/UX Design</li>
                         <li className="mb-10">Usability Testing</li>
                       </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="numbers mt-80 md-mb50">
-                <div className="row lg-marg">
-                  <div className="col-md-6">
-                    <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20 sm-mb30">
-                      <div>
-                        <h3 className="fw-300 mb-10">100%</h3>
-                        <h6 className="p-color sub-title">
-                          Clients Satisfaction
-                        </h6>
-                      </div>
-                      <div className="ml-auto">
-                        <div className="icon-img-40">
-                          <img src="/assets/imgs/arw0.png" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
-                      <div>
-                        <h3 className="fw-300 mb-10">6700</h3>
-                        <h6 className="p-color sub-title">
-                          Projects Completed
-                        </h6>
-                      </div>
-                      <div className="ml-auto">
-                        <div className="icon-img-40">
-                          <img src="/assets/imgs/arw0.png" alt="" />
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -107,12 +73,12 @@ function Intro() {
       <section className="intro-accord">
         <div className="container ontop">
           <div className="row xlg-marg">
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="img md-mb50">
                 <img src="/assets/imgs/serv/design1.png" alt="" />
               </div>
             </div>
-            <div className="col-lg-6 valign">
+            <div className="col-lg-5 valign">
               <div>
                 <div className="sec-head mb-50">
                   <h6 className="sub-title main-color mb-15">Why choose us?</h6>

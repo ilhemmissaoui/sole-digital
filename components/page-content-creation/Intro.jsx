@@ -51,7 +51,7 @@ function Intro() {
                       digital platforms.
                     </p>
 
-                    <div className="mt-30">
+                    <div className="mt-100">
                       <ul className="rest dot-list">
                         <li className="mb-10">Content Strategy</li>
                         <li className="mb-10">Copywriting</li>
@@ -62,42 +62,8 @@ function Intro() {
                   </div>
                 </div>
               </div>
-              <div className="numbers mt-80 md-mb50">
-                <div className="row lg-marg">
-                  <div className="col-md-6">
-                    <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20 sm-mb30">
-                      <div>
-                        <h3 className="fw-300 mb-10">100%</h3>
-                        <h6 className="p-color sub-title">
-                          Clients Satisfaction
-                        </h6>
-                      </div>
-                      <div className="ml-auto">
-                        <div className="icon-img-40">
-                          <img src="/assets/imgs/arw0.png" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
-                      <div>
-                        <h3 className="fw-300 mb-10">6700</h3>
-                        <h6 className="p-color sub-title">
-                          Projects Completed
-                        </h6>
-                      </div>
-                      <div className="ml-auto">
-                        <div className="icon-img-40">
-                          <img src="/assets/imgs/arw0.png" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <div className="img-full fit-img">
                 <img src="/assets/imgs/serv/cc2.png" alt="" />
               </div>
@@ -108,7 +74,7 @@ function Intro() {
       <section className="intro-accord">
         <div className="container ontop">
           <div className="row xlg-marg">
-            <div className="col-lg-6">
+            <div className="col-lg-4">
               <div className="img md-mb50">
                 <img src="/assets/imgs/serv/cc1.png" alt="" />
               </div>

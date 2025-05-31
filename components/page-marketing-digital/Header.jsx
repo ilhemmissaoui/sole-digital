@@ -1,16 +1,41 @@
-'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
-import { gsap } from 'gsap';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+"use client";
+import React, { useEffect, useLayoutEffect } from "react";
+import { gsap } from "gsap";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
 function Header() {
   useLayoutEffect(() => {
-    const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
-    tl.fromTo(
-      '.header .container',
-      { opacity: 0, translateY: 40 },
-      { opacity: 1, translateY: 0 },
-      '-=0'
+    const tl = gsap.timeline({
+      repeat: -1,
+      repeatDelay: 0.5,
+    });
+
+    // Split text into spans
+    const heading = document.querySelector(".animate-text");
+    const text = heading.textContent;
+    heading.textContent = "";
+    text.split("").forEach((char) => {
+      const span = document.createElement("span");
+      span.textContent = char === " " ? "\u00A0" : char;
+      span.style.display = "inline-block";
+      span.style.opacity = "0";
+      heading.appendChild(span);
+    });
+
+    // Repeating reveal animation
+    tl.to(".animate-text span", {
+      opacity: 1,
+      duration: 0.5,
+      stagger: 0.1,
+      ease: "none",
+    }).to(
+      ".animate-text span",
+      {
+        opacity: 0,
+        duration: 0.5,
+        stagger: 0.1,
+        ease: "none",
+      },
+      "+=1"
     );
 
     return () => tl.kill();
@@ -28,8 +53,8 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="text-center">
-              <h1 className="text-u ls1 fz-80">
-              Digital <span className="fw-200">marketing</span>
+              <h1 className="text-u ls1 fz-80 animate-text">
+                Digital <span className="fw-200">marketing</span>
               </h1>
             </div>
           </div>

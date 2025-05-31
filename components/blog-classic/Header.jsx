@@ -24,7 +24,7 @@ function Header() {
       data-background="/assets/imgs/background/bg4.jpg"
       data-overlay-dark="8"
     >
-      <div className="container pt-80">
+      <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="text-center">

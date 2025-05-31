@@ -124,9 +124,7 @@ function Testimonials() {
                   <span className="ti-arrow-right"></span>
                 </div>
               </div>
-              <div className="circle-blur">
-                <img src="/assets/imgs/patterns/blur1.png" alt="" />
-              </div>
+              
             </div>
           </div>
         </div>

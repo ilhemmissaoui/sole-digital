@@ -177,7 +177,7 @@ function Intro() {
               position: "relative",
               padding: "40px",
               borderRadius: "15px",
-              color: "white", // Add this to make text readable on dark background
+              color: "white", 
             }}
           >
             <div
@@ -202,9 +202,8 @@ function Intro() {
                 <div>
                   We welcome creators from:
                   <ul className="rest dot-list">
-                    <li className="mb-10">MENA: UAE, KSA, Egypt, Morocco,</li>
                     <li className="mb-10">
-                      MENA: UAE, KSA, Egypt, Morocco, Tunisia & more
+                      MENA: UAE, KSA, Egypt, Morocco,Tunisia & more
                     </li>
                     <li className="mb-10">
                       North America: United States & Canada

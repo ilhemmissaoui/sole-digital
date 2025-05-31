@@ -27,8 +27,8 @@ export const metadata = {
     canonical: "https://soledigitalmedia.com",
   },
   icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico",
+    icon: "/assets/imgs/Logo.svg",
+    shortcut: "/assets/imgs//Logo.svg",
     other: generateStylesheetObject([
       "/assets/css/plugins.css",
       "/assets/css/style.css",
@@ -84,7 +84,7 @@ export default async function Home() {
             <Header />
 
             <Intro />
-            <Marq />
+            {/* <Marq /> */}
             <Services />
             <About />
             <Portfolio />
