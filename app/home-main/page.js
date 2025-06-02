@@ -19,16 +19,16 @@ import Marq from "@/components/home-main/Marq";
 
 export const metadata = {
   title: "SoleDigitalMedia",
-   icons: {
-     icon: "/assets/imgs/Logo.svg",
-     shortcut: "/assets/imgs/Logo.svg",
-     other: generateStylesheetObject([
-       "/assets/css/plugins.css",
-       "/assets/css/style.css",
-       "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
-       "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap",
-     ]),
-   },
+  icons: {
+    icon: "/assets/imgs/Logo.svg",
+    shortcut: "/assets/imgs/Logo.svg",
+    other: generateStylesheetObject([
+      "/assets/css/plugins.css",
+      "/assets/css/style.css",
+      "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap",
+    ]),
+  },
 };
 
 export default function Home() {
@@ -51,7 +51,7 @@ export default function Home() {
             <Team />
             <Testimonials />
             <Clients />
-            <Marq2 />
+            {/* <Marq2 /> */}
           </main>
           <Footer />
         </div>

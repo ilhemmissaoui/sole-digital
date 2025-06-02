@@ -39,7 +39,7 @@ export default function Home() {
             <Header />
             <Intro />
 
-            <Marq2 />
+            {/* <Marq2 /> */}
           </main>
           <Footer />
         </div>

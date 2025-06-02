@@ -40,7 +40,7 @@ export default function Home() {
             <Intro />
 
             <Services />
-            <Marq2 />
+            {/* <Marq2 /> */}
           </main>
           <Footer />
         </div>

@@ -1,6 +1,33 @@
-import React from "react";
+"use client";
+
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+  const [status, setStatus] = useState({ loading: false, message: "" });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus({ loading: true, message: "" });
+
+    try {
+      await emailjs.sendForm(
+        "service_5aj4vhw",
+        "template_9f1wt24",
+        form.current,
+        "zB_69KChhj_zmQc6n"
+      );
+      setStatus({ loading: false, message: "Message sent successfully!" });
+      form.current.reset();
+    } catch (error) {
+      setStatus({
+        loading: false,
+        message: "Failed to send message. Please try again.",
+      });
+    }
+  };
+
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -61,8 +88,27 @@ function Contact() {
                   Send a <span className="fw-200">message</span>
                 </h3>
               </div>
-              <form id="contact-form" className="form2" method="post" action="">
-                <div className="messages"></div>
+              <form
+                ref={form}
+                onSubmit={handleSubmit}
+                id="contact-form"
+                className="form2"
+                method="post"
+                action=""
+              >
+                <div className="messages">
+                  {status.message && (
+                    <div
+                      className={`alert ${
+                        status.message.includes("success")
+                          ? "alert-success"
+                          : "alert-danger"
+                      }`}
+                    >
+                      {status.message}
+                    </div>
+                  )}
+                </div>
 
                 <div className="controls row">
                   <div className="col-lg-6">
@@ -114,8 +160,11 @@ function Contact() {
                       <button
                         type="submit"
                         className="butn butn-full butn-bord radius-30"
+                        disabled={status.loading}
                       >
-                        <span className="text">Let&lsquo;s Talk</span>
+                        <span className="text">
+                          {status.loading ? "Sending..." : "Let's Talk"}
+                        </span>
                       </button>
                     </div>
                   </div>
